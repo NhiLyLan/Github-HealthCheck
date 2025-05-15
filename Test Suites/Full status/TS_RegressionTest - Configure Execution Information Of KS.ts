@@ -12,13 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>5ac3701c-62a0-444c-8ebf-d96e2aa2af27</testSuiteGuid>
    <testCaseLink>
-      <guid>e4bf2157-13c0-4c5f-875c-fa60a7e7a2fa</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Main Test Cases/TC2_Verify Successful Call Login Test case</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>e50e5efd-f4ef-44db-abc4-48941742d8c3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
