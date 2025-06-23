@@ -6,4 +6,5 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>bf59ef93-e5fc-4a48-900f-6e03766df143</testCaseGuid>
+   <priority>CRITICAL</priority>
 </TestCaseEntity>
