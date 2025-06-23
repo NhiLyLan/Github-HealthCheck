@@ -39,5 +39,5 @@ Expected result:
       <masked>false</masked>
       <name>Password</name>
    </variable>
-   <priority>HIGH</priority>
+   <priority>LOW</priority>
 </TestCaseEntity>
