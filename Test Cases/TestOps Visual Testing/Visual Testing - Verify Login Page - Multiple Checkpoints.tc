@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify Login Page - Multiple Checkpoints</name>
+   <name>Visual Testing - Verify Login Page - Multiple Checkpoints</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
