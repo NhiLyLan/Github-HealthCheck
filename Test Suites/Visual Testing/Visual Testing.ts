@@ -15,7 +15,7 @@
       <guid>6c3a8bd0-7958-4672-92f8-efdb3981e385</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TestOps Visual Testing/Verify Login Page</testCaseId>
+      <testCaseId>Test Cases/TestOps Visual Testing/Visual Testing - Verify Login Page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
