@@ -8,7 +8,7 @@ Steps:
 
 Expected result:
 'Appointment' section is displayed after successful login</description>
-   <name>Login Critical</name>
+   <name>Login Medium</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
