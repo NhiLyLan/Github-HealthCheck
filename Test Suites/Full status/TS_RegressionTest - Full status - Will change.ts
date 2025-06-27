@@ -77,23 +77,4 @@
          <variableId>491ad306-0d3c-4213-9452-cfe431e71c29</variableId>
       </variableLink>
    </testCaseLink>
-   <testCaseLink>
-      <guid>e1ff4ed8-82e9-442c-8353-4d148ad442b1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Main Test Cases/TC7_Verify Successful Skip</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7c5958cd-510a-4460-9e57-37be62533281</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>fa0352c9-7f7c-4e82-bbf7-7b2a7a586cfb</variableId>
-      </variableLink>
-   </testCaseLink>
 </TestSuiteEntity>
