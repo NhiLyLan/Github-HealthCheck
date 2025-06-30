@@ -81,7 +81,7 @@
       <guid>b5559c82-ded6-4214-9037-5d60a9e886c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Common Test Cases/Login Critical (1)</testCaseId>
+      <testCaseId>Test Cases/Main Test Cases/Login Critical (1)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLinks>
          <testDataLinkId></testDataLinkId>
