@@ -12,7 +12,7 @@
       <properties>
          <entry>
             <key>component</key>
-            <value>123,a</value>
+            <value>a</value>
          </entry>
          <entry>
             <key>testType</key>
