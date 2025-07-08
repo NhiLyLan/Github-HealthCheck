@@ -16,7 +16,7 @@
          </entry>
          <entry>
             <key>testType</key>
-            <value>label 1</value>
+            <value>label,label 1</value>
          </entry>
       </properties>
       <type>TESTCASE</type>
