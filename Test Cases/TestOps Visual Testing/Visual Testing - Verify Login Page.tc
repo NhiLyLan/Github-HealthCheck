@@ -12,7 +12,7 @@
       <properties>
          <entry>
             <key>component</key>
-            <value>abcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaa</value>
+            <value>abcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaa,&lt;a href="javascript:alert(\'XSS\')"&gt;link&lt;/a&gt;</value>
          </entry>
          <entry>
             <key>testType</key>
