@@ -16,7 +16,7 @@
          </entry>
          <entry>
             <key>testType</key>
-            <value>&lt;a href="javascript:alert(\'XSS\')"&gt;link&lt;/a&gt;</value>
+            <value>"&gt;&lt;img src=x onerror=alert(1)&gt;,&lt;a href="javascript:alert(\'XSS\')"&gt;link&lt;/a&gt;</value>
          </entry>
       </properties>
       <type>TESTCASE</type>
