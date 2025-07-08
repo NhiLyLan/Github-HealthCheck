@@ -7,4 +7,18 @@
    <recordOption>OTHER</recordOption>
    <testCaseGuid>bf59ef93-e5fc-4a48-900f-6e03766df143</testCaseGuid>
    <priority>CRITICAL</priority>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>component</key>
+            <value>abcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaaabcdefgaaaa</value>
+         </entry>
+         <entry>
+            <key>testType</key>
+            <value></value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
 </TestCaseEntity>
