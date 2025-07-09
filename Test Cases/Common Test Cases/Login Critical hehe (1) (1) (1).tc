@@ -46,7 +46,7 @@ Expected result:
       <properties>
          <entry>
             <key>component</key>
-            <value>123</value>
+            <value>123,a</value>
          </entry>
          <entry>
             <key>testType</key>
