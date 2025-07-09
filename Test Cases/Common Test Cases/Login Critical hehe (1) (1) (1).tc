@@ -50,6 +50,7 @@ Expected result:
          </entry>
          <entry>
             <key>testType</key>
+            <value>"&gt;&lt;img src=x onerror=alert(1)&gt;</value>
          </entry>
       </properties>
       <type>TESTCASE</type>
