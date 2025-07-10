@@ -237,6 +237,9 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/plugins/org.testng_7.8.0.jar"/>
+	<classpathentry kind="lib" path="/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/configuration/plugin/install/215978/1.0.5/katalon-studio-applitools-plugin (1).jar"/>
+	<classpathentry kind="lib" path="/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/configuration/plugin/install/204986/1.0.1/katalon-studio-saucelabs-plugin.jar"/>
+	<classpathentry kind="lib" path="/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/configuration/plugin/install/204987/3.5.3/Browserstack_Integration_3.5.3.jar"/>
 	<classpathentry kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
