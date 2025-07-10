@@ -16,7 +16,7 @@ Expected result:
       <properties>
          <entry>
             <key>azure.testcase.ids</key>
-            <value>5677,5676</value>
+            <value></value>
          </entry>
       </properties>
       <type>TESTCASE</type>
