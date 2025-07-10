@@ -59,13 +59,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0dc7fe71-c2f2-442b-b4b4-d54460759a45</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Common Test Cases/Login Critical hehe (1) (1) (1)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>b5559c82-ded6-4214-9037-5d60a9e886c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
