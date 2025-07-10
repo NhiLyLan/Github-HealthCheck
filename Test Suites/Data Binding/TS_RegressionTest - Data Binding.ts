@@ -64,36 +64,24 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Common Test Cases/Login Critical hehe (1) (1) (1)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLinks>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>19fe967b-1564-4705-aff2-848d45b84489</variableId>
-      </variableLinks>
-      <variableLinks>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>75fa3d79-7e92-4d55-b359-f7c9493ea288</variableId>
-      </variableLinks>
    </testCaseLink>
    <testCaseLink>
       <guid>b5559c82-ded6-4214-9037-5d60a9e886c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Common Test Cases/Login Critical (1)</testCaseId>
+      <testCaseId>Test Cases/Common Test Cases/Login - Azure Test</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLinks>
+      <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
          <variableId>19fe967b-1564-4705-aff2-848d45b84489</variableId>
-      </variableLinks>
-      <variableLinks>
+      </variableLink>
+      <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
          <variableId>75fa3d79-7e92-4d55-b359-f7c9493ea288</variableId>
-      </variableLinks>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
