@@ -53,4 +53,5 @@ Then he should be able to login successfully</comment>
       <masked>false</masked>
       <name>Password</name>
    </variable>
+   <priority>CRITICAL</priority>
 </TestCaseEntity>
