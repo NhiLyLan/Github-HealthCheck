@@ -46,7 +46,7 @@ Expected result:
       <properties>
          <entry>
             <key>featureArea</key>
-            <value>!@#@!#0@#</value>
+            <value>123,!@#@!#0@#</value>
          </entry>
          <entry>
             <key>testType</key>
