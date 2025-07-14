@@ -50,7 +50,7 @@ Expected result:
          </entry>
          <entry>
             <key>testType</key>
-            <value>&lt;script&gt;alert(\'XSS\')&lt;/script&gt;</value>
+            <value>!@#@!#0@#,&lt;script&gt;alert(\'XSS\')&lt;/script&gt;</value>
          </entry>
       </properties>
       <type>TESTCASE</type>
