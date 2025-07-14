@@ -46,7 +46,7 @@ Expected result:
       <properties>
          <entry>
             <key>featureArea</key>
-            <value>123; !@#@!#0@#;&lt;script&gt;alert(\'XSS\')&lt;/script&gt;,123,!@#@!#0@#</value>
+            <value></value>
          </entry>
          <entry>
             <key>testType</key>
