@@ -9,7 +9,7 @@ Steps:
 
 Expected result:
 'Appointment' section is displayed after successful login</description>
-   <name>TC1_Verify Successful Login - Has Azure Link</name>
+   <name>TC1_Verify Successful Login - Has Azure Link - Not Exist</name>
    <tag></tag>
    <integratedEntity>
       <productName>Azure</productName>
@@ -53,5 +53,4 @@ Then he should be able to login successfully</comment>
       <masked>false</masked>
       <name>Password</name>
    </variable>
-   <priority>CRITICAL</priority>
 </TestCaseEntity>
