@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <name>full priority</name>
+   <name>Only(),.-_ are allowed</name>
    <description></description>
    <tag></tag>
    <isRerun>false</isRerun>
