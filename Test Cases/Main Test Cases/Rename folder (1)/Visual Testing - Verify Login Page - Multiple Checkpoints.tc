@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Visual Testing - Verify Login Page - Multiple Checkpoints</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d9ecb5ee-6128-11f0-9c7d-8ac3bc589ea0</testCaseGuid>
+</TestCaseEntity>
