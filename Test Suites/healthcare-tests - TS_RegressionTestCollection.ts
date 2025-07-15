@@ -15,7 +15,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Full status/TS_RegressionTest - Data Binding</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Data Binding/TS_RegressionTest - Data Binding</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -25,7 +25,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Full status/TS_RegressionTest - Full status</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Data Binding/TS_RegressionTest - Full status</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
