@@ -15,6 +15,7 @@
          </entry>
          <entry>
             <key>testType</key>
+            <value>123</value>
          </entry>
       </properties>
       <type>TESTCASE</type>
