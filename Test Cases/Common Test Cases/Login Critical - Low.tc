@@ -46,7 +46,7 @@ Expected result:
       <properties>
          <entry>
             <key>featureArea</key>
-            <value>Detail</value>
+            <value>Detail,clear</value>
          </entry>
          <entry>
             <key>testType</key>
