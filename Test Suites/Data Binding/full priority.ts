@@ -12,25 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>2414afcc-3762-46e4-95f5-db788d915760</testSuiteGuid>
    <testCaseLink>
-      <guid>393e1eba-cede-4b38-b45e-51b161b7458a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Common Test Cases/Rename</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>19fe967b-1564-4705-aff2-848d45b84489</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>75fa3d79-7e92-4d55-b359-f7c9493ea288</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>310aaafb-5db3-4205-88f7-5b69790a697d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
