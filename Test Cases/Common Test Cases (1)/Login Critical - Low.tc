@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Common test case used to login. 
+Steps:
+- Edit description
+- Click on '''Book Appointment''' button to login
+- Input username and password
+- Click on '''Login''' button
+
+Expected result:
+'''Appointment''' section is displayed after successful login</description>
+   <name>Login Critical - Low</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b963acfe-6157-11f0-aef9-f89603905558</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b963ad9e-6157-11f0-aef9-f89603905558</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b963adc6-6157-11f0-aef9-f89603905558</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>b963ad9e-6157-11f0-aef9-f89603905558</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>b963adc6-6157-11f0-aef9-f89603905558</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <priority>LOW</priority>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>featureArea</key>
+            <value>Detail,123</value>
+         </entry>
+         <entry>
+            <key>testType</key>
+            <value>Automation,123</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+</TestCaseEntity>
