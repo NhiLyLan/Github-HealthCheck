@@ -6,7 +6,7 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>8d5f3612-6127-11f0-98a3-ba296e51ae28</testCaseGuid>
-   <priority>HIGH</priority>
+   <priority>CRITICAL</priority>
    <integratedEntity>
       <productName>TESTOPS</productName>
       <properties>
