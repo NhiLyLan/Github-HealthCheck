@@ -35,7 +35,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Full status/TS_RegressionTest - Configure Execution Information Of KS</testSuiteEntity>
+         <testSuiteEntity>Test Suites/TestSuiteFromTO/TS_RegressionTest - Configure Execution Information Of KS</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
