@@ -44,12 +44,11 @@ Expected result:
       <productName>TESTOPS</productName>
       <properties>
          <entry>
-            <key>component</key>
-            <value>core</value>
+            <key>featureArea</key>
+            <value>123</value>
          </entry>
          <entry>
             <key>testType</key>
-            <value>TestType1</value>
          </entry>
       </properties>
       <type>TESTCASE</type>
