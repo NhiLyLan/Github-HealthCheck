@@ -11,7 +11,8 @@
       <productName>TESTOPS</productName>
       <properties>
          <entry>
-            <key>component</key>
+            <key>featureArea</key>
+            <value>!@#@!#0@#</value>
          </entry>
          <entry>
             <key>testType</key>
