@@ -16,7 +16,6 @@
          </entry>
          <entry>
             <key>testType</key>
-            <value>and</value>
          </entry>
       </properties>
       <type>TESTCASE</type>
