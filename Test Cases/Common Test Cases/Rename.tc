@@ -40,7 +40,7 @@ Expected result:
       <masked>false</masked>
       <name>Password</name>
    </variable>
-   <priority>CRITICAL</priority>
+   <priority>HIGH</priority>
    <integratedEntity>
       <productName>TESTOPS</productName>
       <properties>
