@@ -22,6 +22,7 @@
       <properties>
          <entry>
             <key>featureArea</key>
+            <value>123; !@#@!#0@#;&lt;script&gt;alert('XSS')&lt;/script&gt;</value>
          </entry>
          <entry>
             <key>testType</key>
