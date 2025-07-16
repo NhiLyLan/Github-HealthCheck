@@ -9,8 +9,22 @@ Steps:
 
 Expected result:
 '''Appointment''' section is displayed after successful login</description>
-   <name>Login Critical - Low (2)</name>
+   <name>Login Critical - Low (1)</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>testType</key>
+            <value>!@#@!#0@#</value>
+         </entry>
+         <entry>
+            <key>featureArea</key>
+            <value>!@#@!#0@#</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>895289ad-15e1-4559-a7cd-01a2e4aa243b</testCaseGuid>
@@ -40,17 +54,4 @@ Expected result:
       <masked>false</masked>
       <name>Password</name>
    </variable>
-   <priority>LOW</priority>
-   <integratedEntity>
-      <productName>TESTOPS</productName>
-      <properties>
-         <entry>
-            <key>featureArea</key>
-         </entry>
-         <entry>
-            <key>testType</key>
-         </entry>
-      </properties>
-      <type>TESTCASE</type>
-   </integratedEntity>
 </TestCaseEntity>
