@@ -52,7 +52,7 @@ Then he should be able to login successfully</comment>
          </entry>
          <entry>
             <key>testType</key>
-            <value>work,azure</value>
+            <value>azure</value>
          </entry>
       </properties>
       <type>TESTCASE</type>
