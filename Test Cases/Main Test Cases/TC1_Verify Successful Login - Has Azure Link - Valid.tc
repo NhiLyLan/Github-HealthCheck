@@ -57,4 +57,5 @@ Then he should be able to login successfully</comment>
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>
+   <priority>MEDIUM</priority>
 </TestCaseEntity>
