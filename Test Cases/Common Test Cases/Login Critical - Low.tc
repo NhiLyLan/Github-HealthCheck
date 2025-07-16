@@ -50,6 +50,7 @@ Expected result:
          </entry>
          <entry>
             <key>testType</key>
+            <value>!@#@!#0@#</value>
          </entry>
       </properties>
       <type>TESTCASE</type>
