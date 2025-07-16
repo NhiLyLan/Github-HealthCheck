@@ -20,4 +20,5 @@
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>
+   <priority>CRITICAL</priority>
 </TestCaseEntity>
