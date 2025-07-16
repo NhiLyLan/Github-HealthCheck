@@ -12,7 +12,7 @@
       <properties>
          <entry>
             <key>featureArea</key>
-            <value>Search,!@#$%^&amp;*()</value>
+            <value>new,Search,!@#$%^&amp;*()</value>
          </entry>
          <entry>
             <key>testType</key>
