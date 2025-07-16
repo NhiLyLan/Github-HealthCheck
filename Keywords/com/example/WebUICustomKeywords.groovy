@@ -30,6 +30,13 @@ public class WebUICustomKeywords {
 		List<WebElement> elements = WebUiBuiltInKeywords.findWebElements(to, timeout)
 		return elements.size() > 0
 	}
+	
+	@Keyword
+	def abc(String a){
+		//Use Katalon built-in function to find elements with time out 1 seconds
+		
+		return a
+	}
 
 	/**
 	 * Get all rows of HTML table
