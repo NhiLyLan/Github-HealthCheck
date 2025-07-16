@@ -44,14 +44,13 @@ Expected result:
    <integratedEntity>
       <productName>TESTOPS</productName>
       <properties>
-         <entries>
-            <key>component</key>
-            <value>component 1</value>
-         </entries>
-         <entries>
+         <entry>
+            <key>featureArea</key>
+            <value>!@#@!#0@#</value>
+         </entry>
+         <entry>
             <key>testType</key>
-            <value></value>
-         </entries>
+         </entry>
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>
