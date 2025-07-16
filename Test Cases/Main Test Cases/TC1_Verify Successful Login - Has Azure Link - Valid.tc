@@ -11,30 +11,6 @@ Expected result:
 'Appointment' section is displayed after successful login</description>
    <name>TC1_Verify Successful Login - Has Azure Link - Valid</name>
    <tag></tag>
-   <integratedEntity>
-      <productName>TESTOPS</productName>
-      <properties>
-         <entry>
-            <key>testType</key>
-            <value>azure</value>
-         </entry>
-         <entry>
-            <key>featureArea</key>
-            <value>azure</value>
-         </entry>
-      </properties>
-      <type>TESTCASE</type>
-   </integratedEntity>
-   <integratedEntity>
-      <productName>Azure</productName>
-      <properties>
-         <entry>
-            <key>azure.testcase.ids</key>
-            <value>5725, 5726,5677</value>
-         </entry>
-      </properties>
-      <type>TESTCASE</type>
-   </integratedEntity>
    <comment>Story: Login to CURA system
 Given that the user has valid login information
 When he logins to CURA system
@@ -67,4 +43,18 @@ Then he should be able to login successfully</comment>
       <masked>false</masked>
       <name>Password</name>
    </variable>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>featureArea</key>
+            <value>abc,Awaiting Listing - before 4.36 (Discont.),azure</value>
+         </entry>
+         <entry>
+            <key>testType</key>
+            <value>Automation,azure</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
 </TestCaseEntity>
