@@ -6,4 +6,5 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>543b97e2-621a-11f0-9327-9a10114e5ed8</testCaseGuid>
+   <priority>HIGH</priority>
 </TestCaseEntity>
