@@ -49,4 +49,17 @@ Expected result:
       <masked>false</masked>
       <name>Password</name>
    </variable>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>featureArea</key>
+            <value>!@#@!#0@#</value>
+         </entry>
+         <entry>
+            <key>testType</key>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
 </TestCaseEntity>
