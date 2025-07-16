@@ -16,7 +16,7 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>9ea09a1c-d79a-4c87-98a5-fc4fbcb76e42</testCaseGuid>
-   <priority>HIGH</priority>
+   <priority>MEDIUM</priority>
    <integratedEntity>
       <productName>TESTOPS</productName>
       <properties>
