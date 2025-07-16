@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Verify if users can login successful. 
-
+   <description>Common test case used to login. 
 Steps:
 - Click on 'Book Appointment' button to login
 - Input username and password
@@ -9,51 +8,35 @@ Steps:
 
 Expected result:
 'Appointment' section is displayed after successful login</description>
-   <name>TC1_Verify Successful Login - Has Azure Link</name>
+   <name>Login Medium - Copy</name>
    <tag></tag>
-   <comment>Story: Login to CURA system
-Given that the user has valid login information
-When he logins to CURA system
-Then he should be able to login successfully</comment>
+   <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>8f231d8d-0c71-4389-b04a-26d50f3a9557</testCaseGuid>
+   <testCaseGuid>affc4242-6234-11f0-8dff-b1100e108b9d</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f9dda1f4-7bad-431b-a583-371577a61644</variableId>
+      <variableId>affc42ba-6234-11f0-8dff-b1100e108b9d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8a4ced27-44e3-405b-84f2-c8361f464dc9</variableId>
+      <variableId>affc42ec-6234-11f0-8dff-b1100e108b9d</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'John Doe'</defaultValue>
       <description></description>
-      <id>f9dda1f4-7bad-431b-a583-371577a61644</id>
+      <id>affc42ba-6234-11f0-8dff-b1100e108b9d</id>
       <masked>false</masked>
       <name>Username</name>
    </variable>
    <variable>
       <defaultValue>'ThisIsNotAPassword'</defaultValue>
       <description></description>
-      <id>8a4ced27-44e3-405b-84f2-c8361f464dc9</id>
+      <id>affc42ec-6234-11f0-8dff-b1100e108b9d</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>
-   <priority>LOW</priority>
-   <integratedEntity>
-      <productName>TESTOPS</productName>
-      <properties>
-         <entry>
-            <key>featureArea</key>
-         </entry>
-         <entry>
-            <key>testType</key>
-         </entry>
-      </properties>
-      <type>TESTCASE</type>
-   </integratedEntity>
 </TestCaseEntity>
