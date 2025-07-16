@@ -7,4 +7,17 @@
    <recordOption>OTHER</recordOption>
    <testCaseGuid>543b97e2-621a-11f0-9327-9a10114e5ed8</testCaseGuid>
    <priority>HIGH</priority>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>featureArea</key>
+            <value>Detail</value>
+         </entry>
+         <entry>
+            <key>testType</key>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
 </TestCaseEntity>
