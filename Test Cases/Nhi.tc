@@ -30,4 +30,5 @@
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>
+   <priority>HIGH</priority>
 </TestCaseEntity>
