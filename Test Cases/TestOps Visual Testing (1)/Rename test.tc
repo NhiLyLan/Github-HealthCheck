@@ -12,7 +12,6 @@
       <properties>
          <entry>
             <key>featureArea</key>
-            <value>Detail</value>
          </entry>
          <entry>
             <key>testType</key>
