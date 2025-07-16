@@ -50,7 +50,7 @@ Expected result:
          </entry>
          <entry>
             <key>testType</key>
-            <value>123,and,Automated,1234</value>
+            <value>123,and,1234</value>
          </entry>
       </properties>
       <type>TESTCASE</type>
