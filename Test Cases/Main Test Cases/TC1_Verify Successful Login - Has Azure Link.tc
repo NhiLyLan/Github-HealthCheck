@@ -53,7 +53,7 @@ Then he should be able to login successfully</comment>
       <masked>false</masked>
       <name>Password</name>
    </variable>
-   <priority>HIGH</priority>
+   <priority>LOW</priority>
    <integratedEntity>
       <productName>TESTOPS</productName>
       <properties>
