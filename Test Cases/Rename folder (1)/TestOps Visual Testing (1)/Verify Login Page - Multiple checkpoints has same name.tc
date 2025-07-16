@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Login Page - Multiple checkpoints has same name</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c69b3f70-6221-11f0-9b52-ae70a4ecce36</testCaseGuid>
+</TestCaseEntity>
