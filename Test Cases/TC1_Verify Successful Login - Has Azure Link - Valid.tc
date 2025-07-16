@@ -62,6 +62,7 @@ Then he should be able to login successfully</comment>
          </entry>
          <entry>
             <key>testType</key>
+            <value>1234</value>
          </entry>
       </properties>
       <type>TESTCASE</type>
