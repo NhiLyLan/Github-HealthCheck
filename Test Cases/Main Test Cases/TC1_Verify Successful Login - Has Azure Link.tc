@@ -53,12 +53,13 @@ Then he should be able to login successfully</comment>
       <masked>false</masked>
       <name>Password</name>
    </variable>
+   <priority>HIGH</priority>
    <integratedEntity>
       <productName>TESTOPS</productName>
       <properties>
          <entry>
             <key>featureArea</key>
-            <value>!@#$%^&amp;*()</value>
+            <value>Detail,!@#$%^&amp;*()</value>
          </entry>
          <entry>
             <key>testType</key>
@@ -67,5 +68,4 @@ Then he should be able to login successfully</comment>
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>
-   <priority>HIGH</priority>
 </TestCaseEntity>
