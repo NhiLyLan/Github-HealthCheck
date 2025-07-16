@@ -52,7 +52,6 @@ Then he should be able to login successfully</comment>
          </entry>
          <entry>
             <key>testType</key>
-            <value>Automation,123,azure</value>
          </entry>
       </properties>
       <type>TESTCASE</type>
