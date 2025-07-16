@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Rename test case</name>
+   <name>Rename test case 123</name>
    <tag></tag>
    <integratedEntity>
       <productName>TESTOPS</productName>
