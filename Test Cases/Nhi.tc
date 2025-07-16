@@ -16,12 +16,13 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>9ea09a1c-d79a-4c87-98a5-fc4fbcb76e42</testCaseGuid>
+   <priority>HIGH</priority>
    <integratedEntity>
       <productName>TESTOPS</productName>
       <properties>
          <entry>
             <key>featureArea</key>
-            <value>!@#@!#0@#</value>
+            <value>123,!@#@!#0@#</value>
          </entry>
          <entry>
             <key>testType</key>
@@ -30,5 +31,4 @@
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>
-   <priority>HIGH</priority>
 </TestCaseEntity>
