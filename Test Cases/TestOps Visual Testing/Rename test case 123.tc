@@ -15,6 +15,7 @@
          </entry>
          <entry>
             <key>testType</key>
+            <value>Automation</value>
          </entry>
       </properties>
       <type>TESTCASE</type>
