@@ -43,19 +43,17 @@ Then he should be able to login successfully</comment>
       <masked>false</masked>
       <name>Password</name>
    </variable>
+   <priority>MEDIUM</priority>
    <integratedEntity>
       <productName>TESTOPS</productName>
       <properties>
          <entry>
             <key>featureArea</key>
-            <value>abc,Awaiting Listing - before 4.36 (Discont.),azure</value>
          </entry>
          <entry>
             <key>testType</key>
-            <value>Automation,123,azure</value>
          </entry>
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>
-   <priority>MEDIUM</priority>
 </TestCaseEntity>
