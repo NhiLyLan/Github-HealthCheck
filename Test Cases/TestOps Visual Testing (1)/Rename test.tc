@@ -12,6 +12,7 @@
       <properties>
          <entry>
             <key>featureArea</key>
+            <value>!@#$%^&amp;*()</value>
          </entry>
          <entry>
             <key>testType</key>
