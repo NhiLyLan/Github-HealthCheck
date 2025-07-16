@@ -63,7 +63,7 @@ Then he should be able to login successfully</comment>
          </entry>
          <entry>
             <key>testType</key>
-            <value>Automation</value>
+            <value>Regression,Automation</value>
          </entry>
       </properties>
       <type>TESTCASE</type>
