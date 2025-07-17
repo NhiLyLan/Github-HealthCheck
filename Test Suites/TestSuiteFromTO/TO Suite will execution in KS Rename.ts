@@ -30,4 +30,11 @@
          <variableId>75fa3d79-7e92-4d55-b359-f7c9493ea288</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c969d138-ba06-490a-9e91-815c90accf96</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/New Folder/Rename test case 123</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
