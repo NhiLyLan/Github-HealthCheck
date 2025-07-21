@@ -51,7 +51,7 @@ Expected result:
                <key>testType</key>
             </customField>
          </customFields>
-         <assignee>nhi.ly@katalon.com</assignee>
+         <assignee>nhi.ly+kataloncloud@katalon.com</assignee>
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>
