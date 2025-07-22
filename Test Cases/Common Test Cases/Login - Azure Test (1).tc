@@ -43,12 +43,15 @@ Expected result:
    <integratedEntity>
       <productName>TESTOPS</productName>
       <properties>
-         <entry>
-            <key>featureArea</key>
-         </entry>
-         <entry>
-            <key>testType</key>
-         </entry>
+         <customFields>
+            <customField>
+               <key>featureArea</key>
+            </customField>
+            <customField>
+               <key>testType</key>
+            </customField>
+         </customFields>
+         <assignee>nhi.ly+kataloncloud@katalon.com</assignee>
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>
