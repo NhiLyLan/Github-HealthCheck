@@ -323,7 +323,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< Updated upstream
 			<id>1752664086656</id>
+=======
+			<id>1753081083008</id>
+>>>>>>> Stashed changes
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -332,6 +336,7 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< Updated upstream
 			<id>1752664086657</id>
 			<name></name>
 			<type>6</type>
@@ -405,6 +410,9 @@
 		</filter>
 		<filter>
 			<id>1752664212977</id>
+=======
+			<id>1753081083014</id>
+>>>>>>> Stashed changes
 			<name></name>
 			<type>6</type>
 			<matcher>
