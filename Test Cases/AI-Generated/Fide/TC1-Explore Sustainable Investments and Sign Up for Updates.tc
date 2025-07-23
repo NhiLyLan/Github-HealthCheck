@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>3c996af6-995c-4e53-a2be-d31f4a24b110</id>
+        </flow>
+    </customField>
+    <description>Navigate to sustainable investments, explore articles, fill out the sign-up form, and verify redirection to the fund details page.</description>
+    <name>TC1-Explore Sustainable Investments and Sign Up for Updates</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>78f4faef-a6e3-4ed3-85fe-95d147b5f2c6</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>a1b3497f-a57a-4fa0-a201-e90d018b9df9</id>
+        <masked>false</masked>
+        <name>input_emailAddress</name>
+    </variable>
+    <variable>
+        <defaultValue>'["My advisor manages my entire portfolio"]'</defaultValue>
+        <description>Input data variable</description>
+        <id>5fcae328-3026-4a78-9ed8-5ecde729e71a</id>
+        <masked>false</masked>
+        <name>select_investorTypeDescription</name>
+    </variable>
+</TestCaseEntity>
