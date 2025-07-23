@@ -10,14 +10,16 @@
    <integratedEntity>
       <productName>TESTOPS</productName>
       <properties>
-         <entry>
-            <key>component</key>
-            <value>a</value>
-         </entry>
-         <entry>
-            <key>testType</key>
-            <value>label 1</value>
-         </entry>
+         <customFields>
+            <customField>
+               <key>featureArea</key>
+            </customField>
+            <customField>
+               <key>testType</key>
+            </customField>
+         </customFields>
+         <assignee>trinh.huynh@katalon.com</assignee>
+         <linkedTestCases></linkedTestCases>
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>
