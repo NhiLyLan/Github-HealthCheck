@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-<<<<<<<< HEAD:Test Suites/Full status/KS - Azure Suite - After move.ts
-   <name>KS - Azure Suite - After move</name>
-========
-   <name>TO Suite will execution in KS Rename 1</name>
->>>>>>>> master:Test Suites/TestSuiteFromTO/TO Suite will execution in KS Rename 1.ts
+   <name>KS - Azure Suite - Copy</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -14,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>b6adda94-6c3d-48f6-9bbe-b77745311fcb</testSuiteGuid>
+   <testSuiteGuid>3ffb3531-c6ed-49fb-8c35-3149808aa438</testSuiteGuid>
    <testCaseLink>
       <guid>534369fe-08c3-428a-bf2b-82d17c50cd49</guid>
       <isReuseDriver>false</isReuseDriver>

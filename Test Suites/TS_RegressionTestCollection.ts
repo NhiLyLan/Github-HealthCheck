@@ -12,10 +12,10 @@
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Remote</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Data Binding/TS_RegressionTest - Data Binding</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Full status/TS_RegressionTest - Full status</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -60,6 +60,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
+<<<<<<< HEAD
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
@@ -83,9 +84,13 @@
                </entry>
             </runConfigurationData>
             <runConfigurationId>TestCloud</runConfigurationId>
+=======
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Remote</runConfigurationId>
+>>>>>>> master
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Full status/TS_RegressionTest - Full status - Will change</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Full status/TS_RegressionTest - Full status</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>

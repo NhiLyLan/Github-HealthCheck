@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Visual Testing - Verify Login Page (1)</name>
+   <name>TC3_Visual Testing Example (1) (1)</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>8a739536-621e-11f0-8b3c-dec926b71637</testCaseGuid>
-   <priority>HIGH</priority>
+   <testCaseGuid>cc5f74b3-2793-4455-9f24-945196488d0a</testCaseGuid>
    <integratedEntity>
       <productName>TESTOPS</productName>
       <properties>
@@ -18,7 +17,8 @@
                <key>testType</key>
             </customField>
          </customFields>
-         <assignee>nhi.ly+kataloncloud@katalon.com</assignee>
+         <assignee></assignee>
+         <linkedTestCases></linkedTestCases>
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>
