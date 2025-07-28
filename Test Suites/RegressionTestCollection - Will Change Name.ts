@@ -11,8 +11,8 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Full status/TS_RegressionTest - Full status - Will change</testSuiteEntity>
@@ -22,6 +22,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
+<<<<<<< Updated upstream
             <runConfigurationData>
                <entry>
                   <key>testCloudDesktopBrowser</key>
@@ -43,6 +44,8 @@
                   <value>DESKTOP_BROWSER</value>
                </entry>
             </runConfigurationData>
+=======
+>>>>>>> Stashed changes
             <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
