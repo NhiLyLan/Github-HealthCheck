@@ -53,4 +53,24 @@ Then he should be able to login successfully</comment>
       <masked>false</masked>
       <name>Password</name>
    </variable>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <customFields>
+            <customField>
+               <key>featureArea</key>
+            </customField>
+            <customField>
+               <key>testType</key>
+            </customField>
+         </customFields>
+         <assignee></assignee>
+         <linkedTestCases>
+            <linkedTestCaseId>12596825</linkedTestCaseId>
+            <linkedTestCaseId>12681630</linkedTestCaseId>
+            <linkedTestCaseId>12681664</linkedTestCaseId>
+         </linkedTestCases>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
 </TestCaseEntity>
