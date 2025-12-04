@@ -9,11 +9,7 @@
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>10.2.3</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-<<<<<<< HEAD
-   <projectFileLocation>/Users/nhi.ly/Documents/Core/RepoKatalon/Github-HealthCheck/test.prj</projectFileLocation>
-=======
    <projectFileLocation>/Users/nhi.ly/Documents/Core/Repository_Katalon/Github-HealthCheck/test.prj</projectFileLocation>
->>>>>>> AVI
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
