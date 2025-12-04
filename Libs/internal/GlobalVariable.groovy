@@ -10,6 +10,16 @@ import com.kms.katalon.core.main.TestCaseMain
 public class GlobalVariable {
      
     /**
+     * <p>Profile CellphoneMix : The domain of the application under test</p>
+     */
+    public static Object application_domain
+     
+    /**
+     * <p>Profile CellphoneMix : The default query parameters of the URL</p>
+     */
+    public static Object query_params
+     
+    /**
      * <p></p>
      */
     public static Object G_Timeout
@@ -35,6 +45,8 @@ public class GlobalVariable {
             def selectedVariables = TestCaseMain.getGlobalVariables("default")
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
     
+            application_domain = selectedVariables['application_domain']
+            query_params = selectedVariables['query_params']
             G_Timeout = selectedVariables['G_Timeout']
             G_SiteURL = selectedVariables['G_SiteURL']
             G_ShortTimeOut = selectedVariables['G_ShortTimeOut']

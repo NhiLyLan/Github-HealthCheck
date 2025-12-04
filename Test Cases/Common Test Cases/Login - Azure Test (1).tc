@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Common test case used to login. 
-Change to high
 Steps:
-- Click on '''Book Appointment''' button to login
+- Click on 'Book Appointment' button to login
 - Input username and password
-- Click on '''Login''' button
+- Click on 'Login' button
 
 Expected result:
-'''Appointment''' section is displayed after successful login</description>
-   <name>Login Critical (1) (1)</name>
-   <tag></tag>
+'Appointment' section is displayed after successful login</description>
+   <name>Login - Azure Test (1)</name>
+   <tag>456</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>dc59940a-fb78-4da3-82c6-7ff4bffcfd97</testCaseGuid>
@@ -44,14 +43,15 @@ Expected result:
    <integratedEntity>
       <productName>TESTOPS</productName>
       <properties>
-         <entries>
-            <key>component</key>
-            <value>component 1</value>
-         </entries>
-         <entries>
-            <key>testType</key>
-            <value></value>
-         </entries>
+         <customFields>
+            <customField>
+               <key>featureArea</key>
+            </customField>
+            <customField>
+               <key>testType</key>
+            </customField>
+         </customFields>
+         <assignee>nhi.ly+kataloncloud@katalon.com</assignee>
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>

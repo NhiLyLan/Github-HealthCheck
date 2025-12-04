@@ -1,41 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Common test case used to login. 
+   <description>Verify if users can login successful. 
+
+da
 Steps:
-- Click on 'Book Appointment' button to login
+- Click on '''Book Appointment''' button to login
 - Input username and password
-- Click on 'Login' button
+- Click on '''Login''' button
 
 Expected result:
-'Appointment' section is displayed after successful login</description>
-   <name>Login Medium - Copy</name>
+'''Appointment''' section is displayed after successful login</description>
+   <name>TC1_Verify Successful Login</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Story: Login to CURA system
+Given that the user has valid login information
+When he logins to CURA system
+Then he should be able to login successfully</comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>17460f23-2f3a-4fc4-9c48-ba2459621936</testCaseGuid>
+   <testCaseGuid>e9b87e65-c02e-4631-8c4a-a4b3d9218d69</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>19afc635-3e87-4d12-825f-c97ca80a3a66</variableId>
+      <variableId>14d98e7b-4ac8-4e28-8ce7-394001d188f0</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>686548d3-b297-4f13-98be-ae0048b0da14</variableId>
+      <variableId>a97344e7-5f9c-4936-92a2-d85e5463f3c9</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'John Doe'</defaultValue>
       <description></description>
-      <id>19afc635-3e87-4d12-825f-c97ca80a3a66</id>
+      <id>14d98e7b-4ac8-4e28-8ce7-394001d188f0</id>
       <masked>false</masked>
       <name>Username</name>
    </variable>
    <variable>
       <defaultValue>'ThisIsNotAPassword'</defaultValue>
       <description></description>
-      <id>686548d3-b297-4f13-98be-ae0048b0da14</id>
+      <id>a97344e7-5f9c-4936-92a2-d85e5463f3c9</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>

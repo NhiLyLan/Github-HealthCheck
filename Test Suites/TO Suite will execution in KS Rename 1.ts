@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>KS - Azure Suite</name>
+<<<<<<<< HEAD:Test Suites/Full status/KS - Azure Suite - After move.ts
+   <name>KS - Azure Suite - After move</name>
+========
+   <name>TO Suite will execution in KS Rename 1</name>
+>>>>>>>> master:Test Suites/TestSuiteFromTO/TO Suite will execution in KS Rename 1.ts
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
