@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Visual Testing - Verify Login Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>63f98154-dfd2-11f0-80d4-b7b9a04603cd</testCaseGuid>
+   <priority>HIGH</priority>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <customFields>
+            <customField>
+               <key>featureArea</key>
+            </customField>
+            <customField>
+               <key>testType</key>
+            </customField>
+         </customFields>
+         <assignee></assignee>
+         <linkedTestCases>
+            <linkedTestCaseId>12588478</linkedTestCaseId>
+            <linkedTestCaseId>12681630</linkedTestCaseId>
+            <linkedTestCaseId>12681664</linkedTestCaseId>
+         </linkedTestCases>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+</TestCaseEntity>
