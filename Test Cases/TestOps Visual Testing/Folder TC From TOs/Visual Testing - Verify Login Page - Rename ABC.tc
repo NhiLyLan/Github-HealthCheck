@@ -3,10 +3,6 @@
    <description></description>
    <name>Visual Testing - Verify Login Page - Rename ABC</name>
    <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>bf59ef93-e5fc-4a48-900f-6e03766df143</testCaseGuid>
-   <priority>HIGH</priority>
    <integratedEntity>
       <productName>TESTOPS</productName>
       <properties>
@@ -17,4 +13,7 @@
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bf59ef93-e5fc-4a48-900f-6e03766df143</testCaseGuid>
 </TestCaseEntity>

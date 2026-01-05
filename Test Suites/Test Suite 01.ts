@@ -30,6 +30,15 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TestOps Visual Testing/Visual Testing - Verify Login Page - Rename</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3067e7a6-e72d-4d0b-ada7-5fb181743bc1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/testSuiteBinding</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
