@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Suite ABC</name>
+   <name>Test Suite 01</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,40 +10,26 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>402fd495-e54a-440d-b8f2-2a9a2dc5aa41</testSuiteGuid>
+   <testSuiteGuid>7e062b56-f7a0-4d30-9bef-465624c82d98</testSuiteGuid>
    <testCaseLink>
-      <guid>e1e0549a-bdc3-40c5-8f0f-3bb4a9fa82bb</guid>
+      <guid>dddee805-d61a-46b1-98b9-9426a6debe8d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TestOps Visual Testing/Folder TC From TOs/Visual Testing - Verify Login Page - Rename ABC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9061ee0f-03fe-47ba-a312-8b9400ce45bd</guid>
+      <guid>09469dc1-b73e-4418-9f2d-abc01c6812b9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TestOps Visual Testing/Folder TC From TOs/Visual Testing - Verify Login Page (1)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8fa67156-5c27-4118-aa42-94a7720f7f20</guid>
+      <guid>28c73f8a-d31c-4ac3-adac-a60c37dd04f7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TestOps Visual Testing/Visual Testing - Verify Login Page - Rename</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9ade0be3-620a-4c6d-8583-85f9c55b85ab</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TestOps Visual Testing Folder KS/Visual Testing - Verify Login Page</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2ba29381-9e0c-4f8b-b137-2f9f7a07c7ac</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TestOps Visual Testing Folder KS/Visual Testing - Verify Login Page - Check webhook</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
