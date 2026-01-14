@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Common test case used to login. 
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login</description>
+   <name>Login - Copy - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d99a7dd4-2dea-4c49-8c4b-c79aa42d2e5b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e6db8c92-ef92-49a6-89bc-eba271049074</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9b14ec3f-e51e-493b-b3c1-998ae9c0b7d4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>e6db8c92-ef92-49a6-89bc-eba271049074</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>9b14ec3f-e51e-493b-b3c1-998ae9c0b7d4</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>
