@@ -8,7 +8,7 @@ Steps:
 
 Expected result:
 'Appointment' section is displayed after successful login</description>
-   <name>Login - Azure Test - Copy</name>
+   <name>Login</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
