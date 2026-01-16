@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Visual Testing - Verify Login Page - Check webhook</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>9f9b7ba9-ea7a-4ef1-bb85-3ac0f3367137</testCaseGuid>
-</TestCaseEntity>

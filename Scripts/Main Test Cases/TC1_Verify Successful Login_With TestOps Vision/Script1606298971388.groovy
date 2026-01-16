@@ -19,13 +19,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 
-WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
+WebUI.comment('Story: Login to CURA system')
 
-WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
+WebUI.comment('Given that the user has the valid login information')
 
-WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
+WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
-WebUI.click(findTestObject('Page_Login/btn_Login'))
+WebUI.maximizeWindow()
 
-landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
+WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
+
+// Check login section using TestOps Vision
+WebUI.takeElementScreenshotAsCheckpoint('Login Dialog Origin', LoginObject)
+
+WebUI.closeBrowser()
 
