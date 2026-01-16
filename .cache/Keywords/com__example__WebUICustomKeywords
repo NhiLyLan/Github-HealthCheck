@@ -33,7 +33,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\n\t * Check if element present in timeout\n\t * @param to Katalon test object\n\t * @param timeout time to wait for element to show up \n\t * @return true if element present, otherwise false\n\t */"
         },
         {
           "name": "getHtmlTableRows",
@@ -64,7 +65,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\n\t * Get all rows of HTML table\n\t * @param table Katalon test object represent for HTML table\n\t * @param outerTagName outer tag name of TR tag, usually is TBODY\n\t * @return All rows inside HTML table \n\t */"
         },
         {
           "name": "getHtmlTableColumns",
@@ -95,10 +97,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\n\t * Get all cells of HTML table row\n\t * @param row a WebElement instance represent for HTML table row \n\t * @param tagName HTML column tag name, usually is TD/TH\n\t * @return All cells inside HTML table row \n\t */"
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
