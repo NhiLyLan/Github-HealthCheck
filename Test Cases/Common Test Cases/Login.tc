@@ -9,7 +9,7 @@ Steps:
 Expected result:
 'Appointment' section is displayed after successful login</description>
    <name>Login</name>
-   <tag>newtagtest,ABC</tag>
+   <tag>newtagtest,ABC,manxaDaiiii</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>dc59940a-fb78-4da3-82c6-7ff4bffcfd97</testCaseGuid>
