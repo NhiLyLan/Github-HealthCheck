@@ -24,6 +24,11 @@ public class GlobalVariable {
      */
     public static Object G_ShortTimeOut
      
+    /**
+     * <p></p>
+     */
+    public static Object tcID
+     
 
     static {
         try {
@@ -33,6 +38,7 @@ public class GlobalVariable {
             G_Timeout = selectedVariables['G_Timeout']
             G_SiteURL = selectedVariables['G_SiteURL']
             G_ShortTimeOut = selectedVariables['G_ShortTimeOut']
+            tcID = selectedVariables['tcID']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

@@ -213,7 +213,7 @@
       <guid>34efaa46-b094-4638-a7f6-e5e6be19c022</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Main Test Cases/TC5_Verify user can create execution</testCaseId>
+      <testCaseId>Test Cases/Main Test Cases/TC5_Verify user can create execution - skipped</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -238,7 +238,7 @@
       <guid>c35346d9-43cc-406b-ae1f-68acbafbfce7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Main Test Cases/TC6_Verify user can edit execution</testCaseId>
+      <testCaseId>Test Cases/Main Test Cases/TC6_Verify user can edit execution - skipped</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -331,6 +331,56 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>67c570fc-0d7e-4e74-8bcc-199b7a20bd99</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3e7ca369-8e3e-4635-989c-45b512ef3a93</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Test Cases/TC10_Verify user can assign test case - Error</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1737278b-94df-4386-a496-0de14ea9b9e6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>23f9a7fd-552d-48d4-b6f9-f254817ec1e0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8d2e93b0-14a0-4b58-9b20-b7a3eb90bf3a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3993bdb4-b49c-4efe-ab32-350b2eb5bef6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Test Cases/TC9_Verify user can move test case - Error</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1f4e4c29-4a1f-4789-9164-5f69305b648a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7c582c1f-a9ca-46c7-9af4-a029b9215469</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>40f37cbf-c506-4aeb-a118-433efae34fa0</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

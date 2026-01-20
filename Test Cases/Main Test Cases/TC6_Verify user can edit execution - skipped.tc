@@ -9,7 +9,7 @@ Steps:
 
 Expected results:
 Appointment Confirmation page is displayed</description>
-   <name>TC6_Verify user can edit execution</name>
+   <name>TC6_Verify user can edit execution - skipped</name>
    <tag></tag>
    <comment>Story: Book an appointment
 Given that the user has logged into their account

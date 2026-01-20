@@ -213,7 +213,7 @@
       <guid>34efaa46-b094-4638-a7f6-e5e6be19c022</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Main Test Cases/TC5_Verify user can create execution</testCaseId>
+      <testCaseId>Test Cases/Main Test Cases/TC5_Verify user can create execution - skipped</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -238,7 +238,7 @@
       <guid>c35346d9-43cc-406b-ae1f-68acbafbfce7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Main Test Cases/TC6_Verify user can edit execution</testCaseId>
+      <testCaseId>Test Cases/Main Test Cases/TC6_Verify user can edit execution - skipped</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -9,50 +9,50 @@ Steps:
 
 Expected result:
 'Appointment' section is displayed after successful login</description>
-   <name>TC5_Verify user can create execution</name>
+   <name>TC10_Verify user can assign test case - Error</name>
    <tag></tag>
    <comment>Story: Login to CURA system
 Given that the user has valid login information
 When he logins to CURA system
 Then he should be able to login successfully</comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>82e4cb52-b27f-4369-9053-8ef3a764f543</testCaseGuid>
+   <testCaseGuid>68184d4b-254e-4884-9ff9-15301f820da8</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8d5105c5-a79f-4bbf-ada5-2e619f92524f</variableId>
+      <variableId>1737278b-94df-4386-a496-0de14ea9b9e6</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>84c530e5-968e-43a7-8e4b-ac573bcb17c1</variableId>
+      <variableId>23f9a7fd-552d-48d4-b6f9-f254817ec1e0</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>967ec302-f8d8-46ee-9635-ae7ee0fe153f</variableId>
+      <variableId>8d2e93b0-14a0-4b58-9b20-b7a3eb90bf3a</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'John Doe'</defaultValue>
       <description></description>
-      <id>8d5105c5-a79f-4bbf-ada5-2e619f92524f</id>
+      <id>1737278b-94df-4386-a496-0de14ea9b9e6</id>
       <masked>false</masked>
       <name>Username</name>
    </variable>
    <variable>
       <defaultValue>'ThisIsNotAPassword'</defaultValue>
       <description></description>
-      <id>84c530e5-968e-43a7-8e4b-ac573bcb17c1</id>
+      <id>23f9a7fd-552d-48d4-b6f9-f254817ec1e0</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>
    <variable>
       <defaultValue>findTestObject('Vision_Common/Login_Dialog')</defaultValue>
       <description></description>
-      <id>967ec302-f8d8-46ee-9635-ae7ee0fe153f</id>
+      <id>8d2e93b0-14a0-4b58-9b20-b7a3eb90bf3a</id>
       <masked>false</masked>
       <name>LoginObject</name>
    </variable>
