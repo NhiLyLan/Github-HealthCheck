@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if users can book an appointment sucessfully.
+Pre-condition: Users have already logged in
+
+Steps:
+- Fill in appoinment's information
+- Click on appointment's button
+
+Expected results:
+Appointment Confirmation page is displayed</description>
+   <name>TC6_Verify user can edit execution</name>
+   <tag></tag>
+   <comment>Story: Book an appointment
+Given that the user has logged into their account
+And Appointment page is displayed
+When he fills in valid information in Appointment page
+Then he should be able to book a new appointment</comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d6e4fad9-6d52-43db-abb4-bd2b1c6a3147</testCaseGuid>
+   <variable>
+      <defaultValue>findTestObject('Vision_Common/Facility_Combobox')</defaultValue>
+      <description></description>
+      <id>691b0f3a-791d-4ad8-a2b0-9a9fa670d231</id>
+      <masked>false</masked>
+      <name>FacilityObject</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Vision_Common/Date_Input')</defaultValue>
+      <description></description>
+      <id>f68f175e-7dab-4ae8-983b-45b3d5117643</id>
+      <masked>false</masked>
+      <name>DateObject</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Vision_Common/Comment_Input')</defaultValue>
+      <description></description>
+      <id>92ed9bd0-0520-4597-93bf-bc1e284893b9</id>
+      <masked>false</masked>
+      <name>CommentObject</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Vision_Common/Medicare_Choices')</defaultValue>
+      <description></description>
+      <id>091d0d49-0416-4256-83d6-1c85f021a1b7</id>
+      <masked>false</masked>
+      <name>MedicareChoicesObject</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Vision_Common/Make_Appointment_Dialog')</defaultValue>
+      <description></description>
+      <id>ac4065c5-4567-4d49-be03-54f25f9076a4</id>
+      <masked>false</masked>
+      <name>AppointmentDialogObject</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Vision_Common/Comment_Label')</defaultValue>
+      <description></description>
+      <id>619a567a-5e77-4c19-b346-4246188b23ba</id>
+      <masked>false</masked>
+      <name>CommentLabelObject</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Vision_Common/Make_Appointment_Label')</defaultValue>
+      <description></description>
+      <id>18de96f9-7202-4194-97f0-12cb7c44b292</id>
+      <masked>false</masked>
+      <name>MakeAppointmentLabel</name>
+   </variable>
+</TestCaseEntity>

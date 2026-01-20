@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_RegressionTest_With TestOps Vision</name>
+   <name>TS_RegressionTest_Release_01</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>1286ccc6-2057-418d-87af-23d00cc6cd0e</testSuiteGuid>
+   <testSuiteGuid>be9b69df-1981-4d1d-ba83-e97435eec0e7</testSuiteGuid>
    <testCaseLink>
       <guid>12b1ed24-3d2b-4bed-87e1-7c72470cdce7</guid>
       <isReuseDriver>false</isReuseDriver>

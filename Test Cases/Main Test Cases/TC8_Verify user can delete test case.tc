@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login</description>
+   <name>TC8_Verify user can delete test case</name>
+   <tag></tag>
+   <comment>Story: Login to CURA system
+Given that the user has valid login information
+When he logins to CURA system
+Then he should be able to login successfully</comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>31e6d998-7fe9-4e74-9be2-485f44df650d</testCaseGuid>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>10a50878-931e-4944-abbf-17253e6a5b52</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>0a331b7d-88db-4c36-ab10-3fc6838ba214</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Vision_Common/Login_Dialog')</defaultValue>
+      <description></description>
+      <id>4f5551ac-02bd-483b-91c2-f560e5ebe859</id>
+      <masked>false</masked>
+      <name>LoginObject</name>
+   </variable>
+</TestCaseEntity>
