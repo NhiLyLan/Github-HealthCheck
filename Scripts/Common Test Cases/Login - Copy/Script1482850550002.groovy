@@ -22,19 +22,23 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
+WebUI.openBrowser('https://www.orangehrm.com/')
+
+WebUI.takeFullPageScreenshotAsCheckpoint('a\\\\b\\\\c')
+
+WebUI.click(findTestObject('Orangehrm/book-a-free-demo'))
+
+WebUI.takeFullPageScreenshotAsCheckpoint('c\\//ed')
+
 WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
 
 WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
-
-WebUI.takeFullPageScreenshotAsCheckpoint('a\\\\b\\\\c')
 
 WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
 
 WebUI.takeFullPageScreenshotAsCheckpoint('c\\d')
 
 WebUI.click(findTestObject('Page_Login/btn_Login'))
-
-WebUI.takeFullPageScreenshotAsCheckpoint('c\\//ed')
 
 landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
 

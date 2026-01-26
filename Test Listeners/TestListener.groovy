@@ -16,29 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
 
 class TestListener {
-	/**
-	 * Executes before every test suite starts.
-	 * @param testSuiteContext: related information of the executed test suite.
-	 */
-	@BeforeTestSuite
-	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
-		KatalonHelper.updateInfo()
-	}
-	
-	@AfterTestCase
-	def terminateRunningWebDrivers(TestCaseContext testCaseContext) {
-		WebDriverCleanerUtil.cleanup()
-	}
 	
 	@BeforeTestCase
 	def beforeTestCase(TestCaseContext testCaseContext) {
 		String testCaseID = testCaseContext.getTestCaseId()
 		GlobalVariable.tcID = testCaseID
-		
-		println 'DVM Args: ' + System.getProperty("test");
-		println '==============CONFIGURATIONS: ' + RunConfiguration.getDriverPreferencesProperties()
-		println RunConfiguration.getExecutionGeneralProperties()
-		println RunConfiguration.getExecutionProperties()
 		
 		// If test case need to be skipped
 		if (testCaseID.contains('skipped')) {
