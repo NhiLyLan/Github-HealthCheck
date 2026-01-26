@@ -26,7 +26,7 @@ WebUI.openBrowser('https://www.orangehrm.com/')
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.takeScreenshot('a')
+WebUI.takeScreenshot('\\a')
 
 WebUI.click(findTestObject('Orangehrm/book-a-free-demo'))
 
