@@ -10,7 +10,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>New Profile</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Safari</runConfigurationId>
          </configuration>
