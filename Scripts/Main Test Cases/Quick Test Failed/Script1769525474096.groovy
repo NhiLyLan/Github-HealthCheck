@@ -21,4 +21,4 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
 KeywordUtil.logInfo("test")
-KeywordUtil.markError("Error")
+KeywordUtil.markFailed("FAILED")
