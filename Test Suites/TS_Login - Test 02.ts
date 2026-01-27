@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_Login - Copy</name>
+   <name>TS_Login - Test 02</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>5de04867-897f-4edd-97b8-f1ba04b69679</testSuiteGuid>
+   <testSuiteGuid>8b68717b-620d-4bd7-8eb2-7acda61e2880</testSuiteGuid>
    <testCaseLink>
       <guid>98496bb5-1e8e-41c5-9200-40bd30d01c47</guid>
       <isReuseDriver>false</isReuseDriver>
