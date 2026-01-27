@@ -24,15 +24,15 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser('https://www.orangehrm.com/')
 
-WebUI.takeFullPageScreenshot()
+WebUI.takeScreenshot('a')
 
-WebUI.takeScreenshot('\\a')
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Orangehrm/book-a-free-demo'))
 
-WebUI.takeScreenshot('a//dc')
+WebUI.takeScreenshot('ac')
 
-WebUI.takeFullPageScreenshotAsCheckpoint('c\\//ed')
+WebUI.takeFullPageScreenshotAsCheckpoint('ced')
 
 WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
 
@@ -40,7 +40,7 @@ WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
 
 WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('c\\d')
+WebUI.takeFullPageScreenshotAsCheckpoint('cd')
 
 WebUI.click(findTestObject('Page_Login/btn_Login'))
 
