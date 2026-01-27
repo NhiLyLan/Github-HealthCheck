@@ -23,7 +23,7 @@ class TestListener {
 		GlobalVariable.tcID = testCaseID
 		
 		// If test case need to be skipped
-		if (testCaseID.contains('skipped')) {
+		if (testCaseID.contains('Skipped')) {
 			String seconds = testCaseID.split(" ").last()
 			
 			// Delay before skip
