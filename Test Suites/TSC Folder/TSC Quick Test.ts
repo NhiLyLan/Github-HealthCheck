@@ -20,9 +20,9 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>Staging</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome (headless)</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test</testSuiteEntity>
@@ -32,7 +32,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Firefox (headless)</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test</testSuiteEntity>
@@ -40,9 +40,9 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>Production</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Firefox</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - 01</testSuiteEntity>
@@ -52,7 +52,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Safari</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - 02</testSuiteEntity>
@@ -60,29 +60,29 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>Staging</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Edge Chromium</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - 03</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
-            <groupName>Mobile</groupName>
+            <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <requireConfigurationData>true</requireConfigurationData>
-            <runConfigurationId>iOS</runConfigurationId>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Test Suite Folder/TS_Login - Test 01</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
-            <groupName>Mobile</groupName>
-            <profileName>default</profileName>
-            <requireConfigurationData>true</requireConfigurationData>
-            <runConfigurationId>Android</runConfigurationId>
+            <groupName>Web Desktop</groupName>
+            <profileName>Production</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Test Suite Folder/TS_Login</testSuiteEntity>
