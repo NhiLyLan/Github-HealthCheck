@@ -20,7 +20,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>Production</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
@@ -40,7 +40,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>Staging</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Windows</runConfigurationId>
          </configuration>
@@ -60,7 +60,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>Production</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Windows</runConfigurationId>
          </configuration>
