@@ -15,7 +15,7 @@
             <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/TS_RegressionTest_With TestOps Vision</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Test Suite Folder/TS_RegressionTest_With TestOps Vision</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -25,7 +25,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/TS_Verify test case TC3, TC4</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Test Suite Folder/TS_Verify test case TC3, TC4</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
