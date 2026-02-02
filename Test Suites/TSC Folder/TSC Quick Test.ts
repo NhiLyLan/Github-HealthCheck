@@ -69,20 +69,20 @@
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
-            <groupName>Mobile</groupName>
-            <profileName>Production</profileName>
-            <requireConfigurationData>true</requireConfigurationData>
-            <runConfigurationId>Android</runConfigurationId>
+            <groupName>Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Windows</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Test Suite Folder/TS_Login - Test 01</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
-            <groupName>Mobile</groupName>
+            <groupName>Desktop</groupName>
             <profileName>default</profileName>
-            <requireConfigurationData>true</requireConfigurationData>
-            <runConfigurationId>iOS</runConfigurationId>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Windows</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Test Suite Folder/TS_Login</testSuiteEntity>
