@@ -21,13 +21,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 
 WebUI.openBrowser('https://www.orangehrm.com/')
 
-WebUI.takeScreenshot('a')
-
-WebUI.takeFullPageScreenshotAsCheckpoint('a\\b\\c')
+WebUI.takeFullPageScreenshotAsCheckpoint('test')
 
 WebUI.click(findTestObject('Orangehrm/book-a-free-demo'))
-
-WebUI.takeFullPageScreenshotAsCheckpoint('c\\//ed')
 
 WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
 
