@@ -32,7 +32,7 @@ public class GlobalVariable {
 
     static {
         try {
-            def selectedVariables = TestCaseMain.getGlobalVariables('Staging')
+            def selectedVariables = TestCaseMain.getGlobalVariables('Staging - ChangeName - MarkDefault')
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
     
             G_Timeout = selectedVariables['G_Timeout']
