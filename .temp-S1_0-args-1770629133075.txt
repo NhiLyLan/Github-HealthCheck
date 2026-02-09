@@ -16,4 +16,4 @@ groovy.ui.GroovyMain
 --encoding
 UTF-8
 --indy
-/Users/nhi.ly/Documents/Core/Repository_Katalon/Github-HealthCheck/Libs/S0.groovy
+/Users/nhi.ly/Documents/Core/Repository_Katalon/Github-HealthCheck/Libs/S1_0.groovy
