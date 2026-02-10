@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS Quick Test - 01</name>
+   <name>TS Quick Test - 04</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>9f0eecd4-a0db-4e06-b887-d72b776500f0</testSuiteGuid>
+   <testSuiteGuid>28355cb5-8b49-42d0-940e-449a844c9ccf</testSuiteGuid>
    <testCaseLink>
       <guid>3c0fe292-0407-4d22-b55c-22b8768fbe70</guid>
       <isReuseDriver>false</isReuseDriver>
