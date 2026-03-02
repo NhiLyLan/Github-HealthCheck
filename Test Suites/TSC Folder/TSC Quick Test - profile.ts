@@ -20,7 +20,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>profile 03</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
@@ -30,7 +30,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>profile 02</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Safari</runConfigurationId>
          </configuration>
@@ -40,7 +40,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>profile 04</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
@@ -50,7 +50,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>PROfile 05</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
@@ -60,7 +60,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>PROFILE_06 </profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox (headless)</runConfigurationId>
          </configuration>
