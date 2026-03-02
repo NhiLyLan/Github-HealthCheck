@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Quick Test Skipped</name>
+   <name>Quick Test Skipped - 01</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>de890a11-c3c7-4412-96b0-771b812cb625</testCaseGuid>
+   <testCaseGuid>fc1a9e34-a935-4fe8-9ae6-8715edf502aa</testCaseGuid>
 </TestCaseEntity>

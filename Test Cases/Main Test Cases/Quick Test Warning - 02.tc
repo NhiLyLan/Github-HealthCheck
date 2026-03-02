@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Quick Test Failed</name>
+   <name>Quick Test Warning - 02</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>632a5f7e-bf5d-4cfd-ab2f-61536e50b75c</testCaseGuid>
+   <testCaseGuid>1518b826-1265-482d-a734-2402bb688f66</testCaseGuid>
 </TestCaseEntity>
