@@ -35,7 +35,7 @@
             <runConfigurationId>Safari</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - passed 3</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - failed 2</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -45,7 +45,7 @@
             <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - passed 4</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - failed 1</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -55,7 +55,7 @@
             <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - passed 5</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - failed 3</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -75,7 +75,7 @@
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - passed 7</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - skipped 1</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -85,7 +85,7 @@
             <runConfigurationId>iOS</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - passed 8</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - skipped 2</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
