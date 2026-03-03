@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
    <description></description>
-   <name>TSC Quick Test - profile</name>
+   <name>TSC Quick Test - filter</name>
    <tag></tag>
    <delayBetweenInstances>0</delayBetweenInstances>
    <executionMode>PARALLEL</executionMode>
@@ -69,20 +69,20 @@
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
-            <groupName>Web Desktop</groupName>
+            <groupName>Mobile</groupName>
             <profileName>default</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - passed 7</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>profile !@#$%^</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationId>iOS</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - passed 8</testSuiteEntity>
@@ -90,9 +90,34 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Trigger</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudMobileDevice</key>
+                  <value>{
+  &quot;capability&quot;: {
+    &quot;availability&quot;: &quot;HIGH&quot;
+  },
+  &quot;id&quot;: &quot;any_ios_phone&quot;,
+  &quot;isTablet&quot;: false,
+  &quot;mobileDeviceId&quot;: &quot;any_ios_phone_26&quot;,
+  &quot;name&quot;: &quot;Any iPhone&quot;,
+  &quot;displayName&quot;: &quot;Any iPhone&quot;,
+  &quot;osVersion&quot;: &quot;26&quot;,
+  &quot;os&quot;: &quot;iOS&quot;,
+  &quot;platformName&quot;: &quot;IOS&quot;,
+  &quot;timeout&quot;: 15,
+  &quot;usingTunnel&quot;: false,
+  &quot;isHighAvailableDevice&quot;: true
+}</value>
+               </entry>
+               <entry>
+                  <key>testCloudSessionType</key>
+                  <value>MOBILE_BROWSER</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - passed 9</testSuiteEntity>
@@ -100,9 +125,34 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Trigger</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudMobileDevice</key>
+                  <value>{
+  &quot;capability&quot;: {
+    &quot;availability&quot;: &quot;HIGH&quot;
+  },
+  &quot;id&quot;: &quot;any_android_phone&quot;,
+  &quot;isTablet&quot;: false,
+  &quot;mobileDeviceId&quot;: &quot;any_android_phone_16&quot;,
+  &quot;name&quot;: &quot;Any Phone&quot;,
+  &quot;displayName&quot;: &quot;Any Phone&quot;,
+  &quot;osVersion&quot;: &quot;16&quot;,
+  &quot;os&quot;: &quot;Android&quot;,
+  &quot;platformName&quot;: &quot;ANDROID&quot;,
+  &quot;timeout&quot;: 15,
+  &quot;usingTunnel&quot;: false,
+  &quot;isHighAvailableDevice&quot;: true
+}</value>
+               </entry>
+               <entry>
+                  <key>testCloudSessionType</key>
+                  <value>MOBILE_BROWSER</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - passed 10</testSuiteEntity>
