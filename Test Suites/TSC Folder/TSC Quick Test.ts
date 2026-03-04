@@ -14,27 +14,24 @@
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
-                  <key>testCloudMobileDevice</key>
+                  <key>testCloudDesktopBrowser</key>
                   <value>{
-  &quot;capability&quot;: {
-    &quot;availability&quot;: &quot;HIGH&quot;
-  },
-  &quot;id&quot;: &quot;any_ios_phone&quot;,
-  &quot;isTablet&quot;: false,
-  &quot;mobileDeviceId&quot;: &quot;any_ios_phone_26&quot;,
-  &quot;name&quot;: &quot;Any iPhone&quot;,
-  &quot;displayName&quot;: &quot;Any iPhone&quot;,
-  &quot;osVersion&quot;: &quot;26&quot;,
-  &quot;os&quot;: &quot;iOS&quot;,
+  &quot;id&quot;: 1949,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;145&quot;,
+  &quot;browserVersionType&quot;: &quot;stable&quot;,
+  &quot;os&quot;: &quot;linux&quot;,
   &quot;platformName&quot;: &quot;IOS&quot;,
   &quot;timeout&quot;: 15,
   &quot;usingTunnel&quot;: false,
-  &quot;isHighAvailableDevice&quot;: true
+  &quot;isHighAvailableDevice&quot;: false
 }</value>
                </entry>
                <entry>
                   <key>testCloudSessionType</key>
-                  <value>MOBILE_BROWSER</value>
+                  <value>DESKTOP_BROWSER</value>
                </entry>
             </runConfigurationData>
             <runConfigurationId>TestCloud</runConfigurationId>
@@ -51,13 +48,13 @@
                <entry>
                   <key>testCloudDesktopBrowser</key>
                   <value>{
-  &quot;id&quot;: 1453,
-  &quot;osDisplayName&quot;: &quot;MacOS&quot;,
-  &quot;browserName&quot;: &quot;msedge&quot;,
-  &quot;browserDisplayName&quot;: &quot;Edge Chromium&quot;,
-  &quot;browserVersion&quot;: &quot;144&quot;,
+  &quot;id&quot;: 1951,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;firefox&quot;,
+  &quot;browserDisplayName&quot;: &quot;Firefox&quot;,
+  &quot;browserVersion&quot;: &quot;148&quot;,
   &quot;browserVersionType&quot;: &quot;stable&quot;,
-  &quot;os&quot;: &quot;macos&quot;,
+  &quot;os&quot;: &quot;linux&quot;,
   &quot;platformName&quot;: &quot;IOS&quot;,
   &quot;timeout&quot;: 15,
   &quot;usingTunnel&quot;: false,
