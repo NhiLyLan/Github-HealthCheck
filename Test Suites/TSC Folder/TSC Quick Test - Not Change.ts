@@ -48,13 +48,13 @@
                <entry>
                   <key>testCloudDesktopBrowser</key>
                   <value>{
-  &quot;id&quot;: 1256,
-  &quot;osDisplayName&quot;: &quot;Windows&quot;,
+  &quot;id&quot;: 1949,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
   &quot;browserName&quot;: &quot;chrome&quot;,
   &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
-  &quot;browserVersion&quot;: &quot;143&quot;,
+  &quot;browserVersion&quot;: &quot;145&quot;,
   &quot;browserVersionType&quot;: &quot;stable&quot;,
-  &quot;os&quot;: &quot;windows&quot;,
+  &quot;os&quot;: &quot;linux&quot;,
   &quot;platformName&quot;: &quot;IOS&quot;,
   &quot;timeout&quot;: 15,
   &quot;usingTunnel&quot;: false,
