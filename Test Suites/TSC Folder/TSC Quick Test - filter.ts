@@ -103,7 +103,7 @@
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - skipped 1</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - passed 1</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -113,7 +113,7 @@
             <runConfigurationId>iOS</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - skipped 2</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Test Suite Folder/TS Quick Test - passed 8</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
