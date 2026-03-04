@@ -16,13 +16,13 @@
                <entry>
                   <key>testCloudDesktopBrowser</key>
                   <value>{
-  &quot;id&quot;: 1321,
-  &quot;osDisplayName&quot;: &quot;Windows&quot;,
-  &quot;browserName&quot;: &quot;msedge&quot;,
-  &quot;browserDisplayName&quot;: &quot;Edge Chromium&quot;,
+  &quot;id&quot;: 1255,
+  &quot;osDisplayName&quot;: &quot;MacOS&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
   &quot;browserVersion&quot;: &quot;143&quot;,
   &quot;browserVersionType&quot;: &quot;stable&quot;,
-  &quot;os&quot;: &quot;windows&quot;,
+  &quot;os&quot;: &quot;macos&quot;,
   &quot;platformName&quot;: &quot;IOS&quot;,
   &quot;timeout&quot;: 15,
   &quot;usingTunnel&quot;: false,
@@ -46,30 +46,24 @@
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
-                  <key>testCloudMobileDevice</key>
+                  <key>testCloudDesktopBrowser</key>
                   <value>{
-  &quot;capability&quot;: {
-    &quot;availability&quot;: &quot;HIGH&quot;
-  },
-  &quot;id&quot;: &quot;apple_iphone_17&quot;,
-  &quot;isTablet&quot;: false,
-  &quot;manufacturer&quot;: [
-    &quot;Apple&quot;
-  ],
-  &quot;mobileDeviceId&quot;: &quot;iPhone_17_ios_26&quot;,
-  &quot;name&quot;: &quot;Apple iPhone 17&quot;,
-  &quot;displayName&quot;: &quot;Apple iPhone 17&quot;,
-  &quot;osVersion&quot;: &quot;26&quot;,
-  &quot;os&quot;: &quot;iOS&quot;,
+  &quot;id&quot;: 1687,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;140&quot;,
+  &quot;browserVersionType&quot;: &quot;stable&quot;,
+  &quot;os&quot;: &quot;linux&quot;,
   &quot;platformName&quot;: &quot;IOS&quot;,
   &quot;timeout&quot;: 15,
   &quot;usingTunnel&quot;: false,
-  &quot;isHighAvailableDevice&quot;: true
+  &quot;isHighAvailableDevice&quot;: false
 }</value>
                </entry>
                <entry>
                   <key>testCloudSessionType</key>
-                  <value>MOBILE_BROWSER</value>
+                  <value>DESKTOP_BROWSER</value>
                </entry>
             </runConfigurationData>
             <runConfigurationId>TestCloud</runConfigurationId>
