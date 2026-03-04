@@ -14,24 +14,30 @@
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
-                  <key>testCloudDesktopBrowser</key>
+                  <key>testCloudMobileDevice</key>
                   <value>{
-  &quot;id&quot;: 78,
-  &quot;osDisplayName&quot;: &quot;Windows&quot;,
-  &quot;browserName&quot;: &quot;internet explorer&quot;,
-  &quot;browserDisplayName&quot;: &quot;Internet Explorer&quot;,
-  &quot;browserVersion&quot;: &quot;11&quot;,
-  &quot;browserVersionType&quot;: &quot;stable&quot;,
-  &quot;os&quot;: &quot;windows&quot;,
+  &quot;capability&quot;: {
+    &quot;availability&quot;: &quot;HIGH&quot;
+  },
+  &quot;id&quot;: &quot;apple_iphone_17&quot;,
+  &quot;isTablet&quot;: false,
+  &quot;manufacturer&quot;: [
+    &quot;Apple&quot;
+  ],
+  &quot;mobileDeviceId&quot;: &quot;iPhone_17_ios_26&quot;,
+  &quot;name&quot;: &quot;Apple iPhone 17&quot;,
+  &quot;displayName&quot;: &quot;Apple iPhone 17&quot;,
+  &quot;osVersion&quot;: &quot;26&quot;,
+  &quot;os&quot;: &quot;iOS&quot;,
   &quot;platformName&quot;: &quot;IOS&quot;,
   &quot;timeout&quot;: 15,
   &quot;usingTunnel&quot;: false,
-  &quot;isHighAvailableDevice&quot;: false
+  &quot;isHighAvailableDevice&quot;: true
 }</value>
                </entry>
                <entry>
                   <key>testCloudSessionType</key>
-                  <value>DESKTOP_BROWSER</value>
+                  <value>MOBILE_BROWSER</value>
                </entry>
             </runConfigurationData>
             <runConfigurationId>TestCloud</runConfigurationId>
