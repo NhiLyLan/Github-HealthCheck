@@ -32,7 +32,7 @@ public class GlobalVariable {
 
     static {
         try {
-            def selectedVariables = TestCaseMain.getGlobalVariables('Trigger')
+            def selectedVariables = TestCaseMain.getGlobalVariables('default')
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
     
             G_Timeout = selectedVariables['G_Timeout']
