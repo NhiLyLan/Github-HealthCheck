@@ -10,28 +10,31 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Trigger</profileName>
+            <profileName>profile 02</profileName>
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
-                  <key>testCloudDesktopBrowser</key>
+                  <key>testCloudMobileDevice</key>
                   <value>{
-  &quot;id&quot;: 1687,
-  &quot;osDisplayName&quot;: &quot;Linux&quot;,
-  &quot;browserName&quot;: &quot;chrome&quot;,
-  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
-  &quot;browserVersion&quot;: &quot;140&quot;,
-  &quot;browserVersionType&quot;: &quot;stable&quot;,
-  &quot;os&quot;: &quot;linux&quot;,
+  &quot;capability&quot;: {
+    &quot;availability&quot;: &quot;HIGH&quot;
+  },
+  &quot;id&quot;: &quot;any_ios_phone&quot;,
+  &quot;isTablet&quot;: false,
+  &quot;mobileDeviceId&quot;: &quot;any_ios_phone_26&quot;,
+  &quot;name&quot;: &quot;Any iPhone&quot;,
+  &quot;displayName&quot;: &quot;Any iPhone&quot;,
+  &quot;osVersion&quot;: &quot;26&quot;,
+  &quot;os&quot;: &quot;iOS&quot;,
   &quot;platformName&quot;: &quot;IOS&quot;,
   &quot;timeout&quot;: 15,
   &quot;usingTunnel&quot;: false,
-  &quot;isHighAvailableDevice&quot;: false
+  &quot;isHighAvailableDevice&quot;: true
 }</value>
                </entry>
                <entry>
                   <key>testCloudSessionType</key>
-                  <value>DESKTOP_BROWSER</value>
+                  <value>MOBILE_BROWSER</value>
                </entry>
             </runConfigurationData>
             <runConfigurationId>TestCloud</runConfigurationId>
@@ -42,28 +45,31 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Trigger</profileName>
+            <profileName>profile 01</profileName>
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
-                  <key>testCloudDesktopBrowser</key>
+                  <key>testCloudMobileDevice</key>
                   <value>{
-  &quot;id&quot;: 1951,
-  &quot;osDisplayName&quot;: &quot;Linux&quot;,
-  &quot;browserName&quot;: &quot;firefox&quot;,
-  &quot;browserDisplayName&quot;: &quot;Firefox&quot;,
-  &quot;browserVersion&quot;: &quot;148&quot;,
-  &quot;browserVersionType&quot;: &quot;stable&quot;,
-  &quot;os&quot;: &quot;linux&quot;,
+  &quot;capability&quot;: {
+    &quot;availability&quot;: &quot;HIGH&quot;
+  },
+  &quot;id&quot;: &quot;any_ios_phone&quot;,
+  &quot;isTablet&quot;: false,
+  &quot;mobileDeviceId&quot;: &quot;any_ios_phone_26&quot;,
+  &quot;name&quot;: &quot;Any iPhone&quot;,
+  &quot;displayName&quot;: &quot;Any iPhone&quot;,
+  &quot;osVersion&quot;: &quot;26&quot;,
+  &quot;os&quot;: &quot;iOS&quot;,
   &quot;platformName&quot;: &quot;IOS&quot;,
   &quot;timeout&quot;: 15,
   &quot;usingTunnel&quot;: false,
-  &quot;isHighAvailableDevice&quot;: false
+  &quot;isHighAvailableDevice&quot;: true
 }</value>
                </entry>
                <entry>
                   <key>testCloudSessionType</key>
-                  <value>DESKTOP_BROWSER</value>
+                  <value>MOBILE_BROWSER</value>
                </entry>
             </runConfigurationData>
             <runConfigurationId>TestCloud</runConfigurationId>
