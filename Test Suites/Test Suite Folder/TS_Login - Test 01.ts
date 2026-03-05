@@ -12,25 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>5de04867-897f-4edd-97b8-f1ba04b69679</testSuiteGuid>
    <testCaseLink>
-      <guid>98496bb5-1e8e-41c5-9200-40bd30d01c47</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Common Test Cases/Login - Copy</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>00c0ff58-4789-4533-a258-ff2e8923306f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b2a4188e-7b54-4245-ac63-74fd1f499b58</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>eb5a5b9a-4e24-4afc-8ecd-5843fb5a88df</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
