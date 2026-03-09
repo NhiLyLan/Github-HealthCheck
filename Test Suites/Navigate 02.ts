@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_sql_attachment</name>
+   <name>Navigate 02</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>783f0719-b928-491f-acc7-25cbcaae5d42</testSuiteGuid>
+   <testSuiteGuid>c6ced5dc-1f38-43ac-8269-2bb088778370</testSuiteGuid>
    <testCaseLink>
-      <guid>bbd200dc-148c-4823-b4e2-75d00f75f890</guid>
+      <guid>f78eb897-cac6-4575-81c4-51398adbf674</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Common Test Cases/navigateToUrl - 01</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <testCaseId>Test Cases/Common Test Cases/navigateToUrl - 02</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>00c0ff58-4789-4533-a258-ff2e8923306f</variableId>
+         <variableId>4e037a7c-6bb2-4deb-a0b0-9ae241013753</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b2a4188e-7b54-4245-ac63-74fd1f499b58</variableId>
+         <variableId>a5105264-6dad-4bbd-a06b-7492bab81c9c</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
