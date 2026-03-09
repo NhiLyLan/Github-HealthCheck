@@ -14,24 +14,30 @@
             <requireConfigurationData>true</requireConfigurationData>
             <runConfigurationData>
                <entry>
-                  <key>testCloudDesktopBrowser</key>
+                  <key>testCloudMobileDevice</key>
                   <value>{
-  &quot;id&quot;: 1387,
-  &quot;osDisplayName&quot;: &quot;MacOS&quot;,
-  &quot;browserName&quot;: &quot;chrome&quot;,
-  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
-  &quot;browserVersion&quot;: &quot;144&quot;,
-  &quot;browserVersionType&quot;: &quot;stable&quot;,
-  &quot;os&quot;: &quot;macos&quot;,
-  &quot;platformName&quot;: &quot;IOS&quot;,
+  &quot;capability&quot;: {
+    &quot;availability&quot;: &quot;HIGH&quot;
+  },
+  &quot;id&quot;: &quot;samsung_galaxy_s24&quot;,
+  &quot;isTablet&quot;: false,
+  &quot;manufacturer&quot;: [
+    &quot;Samsung&quot;
+  ],
+  &quot;mobileDeviceId&quot;: &quot;Galaxy_S24_android_16&quot;,
+  &quot;name&quot;: &quot;Samsung Galaxy S24&quot;,
+  &quot;displayName&quot;: &quot;Samsung Galaxy S24&quot;,
+  &quot;osVersion&quot;: &quot;16&quot;,
+  &quot;os&quot;: &quot;Android&quot;,
+  &quot;platformName&quot;: &quot;ANDROID&quot;,
   &quot;timeout&quot;: 15,
   &quot;usingTunnel&quot;: false,
-  &quot;isHighAvailableDevice&quot;: false
+  &quot;isHighAvailableDevice&quot;: true
 }</value>
                </entry>
                <entry>
                   <key>testCloudSessionType</key>
-                  <value>DESKTOP_BROWSER</value>
+                  <value>MOBILE_BROWSER</value>
                </entry>
             </runConfigurationData>
             <runConfigurationId>TestCloud</runConfigurationId>
