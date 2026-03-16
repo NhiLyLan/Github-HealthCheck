@@ -24,9 +24,9 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser('https://www.orangehrm.com/')
 
-WebUI.takeFullPageScreenshot()
-
 WebUI.takeFullPageScreenshotAsCheckpoint('ced')
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Orangehrm/book-a-free-demo'))
 
