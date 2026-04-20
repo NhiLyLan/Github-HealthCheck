@@ -27,6 +27,27 @@ WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.takeFullPageScreenshotAsCheckpoint('fullPageCheckPoint')
 
+if(WebUI.verifyElementPresent(findTestObject('Page_CuraHomepage/btn_MakeAppointment'), 5) == false) {
+	
+	WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
+	
+	WebUI.takeElementScreenshotAsCheckpoint('elementCheckPoint', findTestObject('Page_Login/btn_Login'))
+	
+	WebUI.takeScreenshotAsCheckpoint('screenCheckPoint')
+	
+	WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
+	
+	WebUI.click(findTestObject('Page_Login/btn_Login'))
+	
+	WebUI.takeAreaScreenshotAsCheckpoint('areaCheckPoint', new Rectangle(100, 100, 150, 100))
+	
+	landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
+	
+	WebUI.closeBrowser()
+	
+}
+else {
+
 WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
 
 WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
@@ -41,5 +62,8 @@ WebUI.click(findTestObject('Page_Login/btn_Login'))
 
 WebUI.takeAreaScreenshotAsCheckpoint('areaCheckPoint', new Rectangle(100, 100, 150, 100))
 
-landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
+landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout) }
+
+WebUI.closeBrowser()
+
 

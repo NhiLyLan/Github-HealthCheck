@@ -26,7 +26,7 @@ Expected result:
       <variableId>3a45d586-4b45-4c58-a862-509926177bdc</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'John Doe'</defaultValue>
+      <defaultValue>'Incorrect Text'</defaultValue>
       <description></description>
       <id>c09b14a0-0b38-4465-8da2-2681adda0170</id>
       <masked>false</masked>
