@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
 
 WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
 
-WebUI.takeElementScreenshotAsCheckpoint('', findTestObject('Page_Login/btn_Login'))
+WebUI.takeElementScreenshotAsCheckpoint('elementCheckPoint', findTestObject('Page_Login/btn_Login'))
 
 WebUI.takeScreenshotAsCheckpoint('screenCheckPoint')
 
