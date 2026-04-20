@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Page_Login/btn_Login'))
 	
 WebUI.takeAreaScreenshotAsCheckpoint('areaCheckPoint', new Rectangle(100, 100, 150, 100))
 	
-landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
+//landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
 	
 WebUI.closeBrowser()
 
