@@ -27,8 +27,6 @@ WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.takeFullPageScreenshotAsCheckpoint('fullPageCheckPoint')
 
-WebUI.click(findTestObject('Orangehrm/book-a-free-demo'))
-
 WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
 
 WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
