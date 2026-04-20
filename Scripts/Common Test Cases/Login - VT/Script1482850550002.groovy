@@ -23,47 +23,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import org.openqa.selenium.Rectangle as Rectangle
 
-WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
+WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 
 WebUI.takeFullPageScreenshotAsCheckpoint('fullPageCheckPoint')
-
-if(WebUI.verifyElementPresent(findTestObject('Page_CuraHomepage/btn_MakeAppointment'), 5) == false) {
 	
-	WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
-	
-	WebUI.takeElementScreenshotAsCheckpoint('elementCheckPoint', findTestObject('Page_Login/btn_Login'))
-	
-	WebUI.takeScreenshotAsCheckpoint('screenCheckPoint')
-	
-	WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
-	
-	WebUI.click(findTestObject('Page_Login/btn_Login'))
-	
-	WebUI.takeAreaScreenshotAsCheckpoint('areaCheckPoint', new Rectangle(100, 100, 150, 100))
-	
-	landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
-	
-	WebUI.closeBrowser()
-	
-}
-else {
-
-WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
-
 WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
-
+	
 WebUI.takeElementScreenshotAsCheckpoint('elementCheckPoint', findTestObject('Page_Login/btn_Login'))
-
+	
 WebUI.takeScreenshotAsCheckpoint('screenCheckPoint')
-
+	
 WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
-
+	
 WebUI.click(findTestObject('Page_Login/btn_Login'))
-
+	
 WebUI.takeAreaScreenshotAsCheckpoint('areaCheckPoint', new Rectangle(100, 100, 150, 100))
-
-landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout) }
-
+	
+landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
+	
 WebUI.closeBrowser()
 
 
