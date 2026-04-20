@@ -29,9 +29,9 @@ WebUI.takeFullPageScreenshotAsCheckpoint('fullPageCheckPoint')
 
 WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
 
-WebUI.takeElementScreenshotAsCheckpoint('elementCheckPoint', findTestObject('Page_Login/btn_Login'))
+WebUI.setText(findTestObject('Page_Login/txt_UserName'), 'incorrect text')
 
-WebUI.setText(findTestObject('Page_Login/txt_UserName'), 'Incorrect Text')
+WebUI.takeElementScreenshotAsCheckpoint('elementCheckPoint', findTestObject('Page_Login/btn_Login'))
 
 WebUI.takeScreenshotAsCheckpoint('screenCheckPoint')
 
