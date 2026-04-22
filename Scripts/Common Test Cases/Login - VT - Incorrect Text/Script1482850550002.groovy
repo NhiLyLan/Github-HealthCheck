@@ -37,7 +37,7 @@ WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
 	
 WebUI.click(findTestObject('Page_Login/btn_Login'))
 	
-WebUI.takeAreaScreenshotAsCheckpoint('areaCheckPoint', new Rectangle(100, 100, 150, 100))
+WebUI.takeAreaScreenshotAsCheckpoint('areaCheckPoint', new Rectangle(500, 500, 500, 500))
 	
 //landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
 	

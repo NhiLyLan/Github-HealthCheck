@@ -42,3 +42,5 @@ WebUI.click(findTestObject('Page_Login/btn_Login'))
 
 landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
 
+WebUI.closeBrowser()
+
