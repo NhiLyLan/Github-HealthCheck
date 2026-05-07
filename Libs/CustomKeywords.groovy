@@ -10,12 +10,7 @@ import java.lang.String
 import org.openqa.selenium.WebElement
 
 
- /**
-	 * Check if element present in timeout
-	 * @param to Katalon test object
-	 * @param timeout time to wait for element to show up 
-	 * @return true if element present, otherwise false
-	 */ 
+
 def static "com.example.WebUICustomKeywords.isElementPresent"(
     	TestObject to	
      , 	int timeout	) {
@@ -24,12 +19,7 @@ def static "com.example.WebUICustomKeywords.isElementPresent"(
          , 	timeout)
 }
 
- /**
-	 * Get all rows of HTML table
-	 * @param table Katalon test object represent for HTML table
-	 * @param outerTagName outer tag name of TR tag, usually is TBODY
-	 * @return All rows inside HTML table 
-	 */ 
+
 def static "com.example.WebUICustomKeywords.getHtmlTableRows"(
     	TestObject table	
      , 	String outerTagName	) {
@@ -38,12 +28,7 @@ def static "com.example.WebUICustomKeywords.getHtmlTableRows"(
          , 	outerTagName)
 }
 
- /**
-	 * Get all cells of HTML table row
-	 * @param row a WebElement instance represent for HTML table row 
-	 * @param tagName HTML column tag name, usually is TD/TH
-	 * @return All cells inside HTML table row 
-	 */ 
+
 def static "com.example.WebUICustomKeywords.getHtmlTableColumns"(
     	WebElement row	
      , 	String tagName	) {
