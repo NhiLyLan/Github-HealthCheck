@@ -10,6 +10,16 @@ Expected result:
 'Appointment' section is displayed after successful login</description>
    <name>Login - VT</name>
    <tag>ABC,manxaDaiiii,newtagtest</tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>5897</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>56940766-0eaa-4b4c-a78c-17af0aa6dabf</testCaseGuid>

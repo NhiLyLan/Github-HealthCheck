@@ -9,7 +9,17 @@ Steps:
 Expected result:
 'Appointment' section is displayed after successful login</description>
    <name>Login</name>
-   <tag>newtagtest,ABC,manxaDaiiii</tag>
+   <tag>ABC,manxaDaiiii,newtagtest</tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>5896</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>dc59940a-fb78-4da3-82c6-7ff4bffcfd97</testCaseGuid>
