@@ -15,7 +15,7 @@
       <guid>4b639e91-e441-407a-b9a0-05f804490fe4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Common Test Cases/Login</testCaseId>
+      <testCaseId>Test Cases/Common Test Cases/Login Azure</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
