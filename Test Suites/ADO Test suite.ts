@@ -12,7 +12,7 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>db4a1725-19ba-4d35-a1fb-a0092dc58f20</testSuiteGuid>
    <testCaseLink>
-      <guid>4b639e91-e441-407a-b9a0-05f804490fe4</guid>
+      <guid>529b695f-8f31-4e51-8541-9033babbd9af</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Common Test Cases/Login Azure</testCaseId>
@@ -31,22 +31,41 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7d829915-d79d-45b0-b3de-bb85bb12f5bb</guid>
+      <guid>95910cd3-3563-467a-9434-6c5227fd8436</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Common Test Cases/Login - VT</testCaseId>
+      <testCaseId>Test Cases/Common Test Cases/Login Azure 02</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>01f48cdb-919e-4870-9802-cdfb4a6c1428</variableId>
+         <variableId>00c0ff58-4789-4533-a258-ff2e8923306f</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>091068f3-5d16-41e5-a0ce-d096747be52a</variableId>
+         <variableId>b2a4188e-7b54-4245-ac63-74fd1f499b58</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9f612947-81db-4913-9d9f-6c0027b12266</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common Test Cases/Login Azure 03</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5f6a4097-d85b-4d37-a0ee-b6b77d6f0702</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1969207c-12cc-4f59-9e8b-03e929698628</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
