@@ -1,4 +1,5 @@
 name: Trigger auto sync
+
 on:
   workflow_dispatch:
   push:
@@ -8,14 +9,27 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout main
         uses: actions/checkout@v3
 
-      - name: Scan repository for QA
-        uses: katalon-studio-samples/testops-sync-script-repo-action@main
-        with: 
-          testops-base-url: https://testops.qa.katalon.com
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
-          token: ${{ secrets.TOKEN }}
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Debug files
+        run: |
+          pwd
+          ls -R
+
+      - name: Upload report to TestOps
+        run: |
+          java -jar ./Github-HealthCheck/Drivers/katalon-report-uploader-0.0.11.jar \
+            --projectId=15601 \
+            --path="${{ github.workspace }}/reports" \
+            --password="${{ secrets.AUTOMATION_KATALON_KEY }}" \
+            --type=katalon \
+            --server=https://nhily-true-enterprise-17132-g3-apr.qa.katalon.com
