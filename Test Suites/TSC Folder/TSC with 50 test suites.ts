@@ -4,7 +4,7 @@
    <name>TSC with 50 test suites</name>
    <tag></tag>
    <delayBetweenInstances>0</delayBetweenInstances>
-   <executionMode>SEQUENTIAL</executionMode>
+   <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>8</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
@@ -12,7 +12,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (42)</testSuiteEntity>
@@ -22,7 +22,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (43)</testSuiteEntity>
@@ -32,7 +32,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (41)</testSuiteEntity>
@@ -42,7 +42,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (8)</testSuiteEntity>
@@ -52,7 +52,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (9)</testSuiteEntity>
@@ -62,7 +62,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (40)</testSuiteEntity>
@@ -72,7 +72,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (50)</testSuiteEntity>
@@ -82,7 +82,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (44)</testSuiteEntity>
@@ -92,7 +92,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (45)</testSuiteEntity>
@@ -102,7 +102,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (47)</testSuiteEntity>
@@ -112,7 +112,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (46)</testSuiteEntity>
@@ -122,7 +122,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (21)</testSuiteEntity>
@@ -132,7 +132,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (35)</testSuiteEntity>
@@ -142,7 +142,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (34)</testSuiteEntity>
@@ -152,7 +152,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (20)</testSuiteEntity>
@@ -162,7 +162,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (36)</testSuiteEntity>
@@ -172,7 +172,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (22)</testSuiteEntity>
@@ -182,7 +182,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (23)</testSuiteEntity>
@@ -192,7 +192,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (37)</testSuiteEntity>
@@ -202,7 +202,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (33)</testSuiteEntity>
@@ -212,7 +212,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (27)</testSuiteEntity>
@@ -222,7 +222,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (26)</testSuiteEntity>
@@ -232,7 +232,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (32)</testSuiteEntity>
@@ -242,7 +242,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (18)</testSuiteEntity>
@@ -252,7 +252,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (24)</testSuiteEntity>
@@ -262,7 +262,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (30)</testSuiteEntity>
@@ -272,7 +272,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (31)</testSuiteEntity>
@@ -282,7 +282,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (25)</testSuiteEntity>
@@ -292,7 +292,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (19)</testSuiteEntity>
@@ -302,7 +302,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (14)</testSuiteEntity>
@@ -312,7 +312,17 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (29)</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (28)</testSuiteEntity>
@@ -322,17 +332,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (29)</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>Trigger</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (15)</testSuiteEntity>
@@ -342,7 +342,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (17)</testSuiteEntity>
@@ -352,7 +352,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (16)</testSuiteEntity>
@@ -362,7 +362,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (12)</testSuiteEntity>
@@ -372,7 +372,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (13)</testSuiteEntity>
@@ -382,7 +382,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (39)</testSuiteEntity>
@@ -392,7 +392,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (11)</testSuiteEntity>
@@ -402,7 +402,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (10)</testSuiteEntity>
@@ -412,7 +412,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (38)</testSuiteEntity>
@@ -422,7 +422,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (2)</testSuiteEntity>
@@ -432,7 +432,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (3)</testSuiteEntity>
@@ -442,7 +442,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (48)</testSuiteEntity>
@@ -452,7 +452,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (1)</testSuiteEntity>
@@ -462,7 +462,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (49)</testSuiteEntity>
@@ -472,7 +472,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (4)</testSuiteEntity>
@@ -482,7 +482,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (5)</testSuiteEntity>
@@ -492,7 +492,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (7)</testSuiteEntity>
@@ -502,7 +502,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Trigger</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Quick Test Copy/TS Quick Test - 01 - Copy (6)</testSuiteEntity>

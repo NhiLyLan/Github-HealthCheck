@@ -22,25 +22,36 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import org.openqa.selenium.Rectangle as Rectangle
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 
-WebUI.takeFullPageScreenshotAsCheckpoint('fullPageCheckPoint')
-	
-WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
-	
-WebUI.takeElementScreenshotAsCheckpoint('elementCheckPoint', findTestObject('Page_Login/btn_Login'))
-	
-WebUI.takeScreenshotAsCheckpoint('screenCheckPoint')
-	
-WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
-	
-WebUI.click(findTestObject('Page_Login/btn_Login'))
-	
-WebUI.takeAreaScreenshotAsCheckpoint('areaCheckPoint', new Rectangle(150, 150, 150, 150))
-	
-//landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
-	
-WebUI.closeBrowser()
+WebUI.maximizeWindow()
 
+WebUI.takeFullPageScreenshotAsCheckpoint('fullPageCheckPoint')
+
+WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
+
+WebUI.takeElementScreenshotAsCheckpoint('elementCheckPoint', findTestObject('Page_Login/btn_Login'))
+
+if (WebUI.getText(findTestObject('Page_Login/btn_Login')) == 'LoginABC') {
+    WebUI.takeScreenshotAsCheckpoint('screenCheckPoint')
+} else {
+    if (WebUI.getText(findTestObject('Page_Login/txt_Password')) == 'Password') {
+        WebUI.takeScreenshotAsCheckpoint('screenCheckPoint')
+    } else {
+        WebUI.takeAreaScreenshotAsCheckpoint('areaCheckPoint', new Rectangle(150, 150, 150, 150))
+    }
+}
+
+WebUI.takeScreenshotAsCheckpoint('screenCheckPoint')
+
+WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
+
+WebUI.click(findTestObject('Page_Login/btn_Login'))
+
+WebUI.takeAreaScreenshotAsCheckpoint('areaCheckPoint', new Rectangle(100, 200, 300, 150))
+
+//landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
+WebUI.closeBrowser()
 
