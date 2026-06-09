@@ -15,7 +15,7 @@
       <guid>0f75bfe9-315b-44c0-ae7f-6e893d3b8388</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Main Test Cases/Quick Test Passed</testCaseId>
+      <testCaseId>Test Cases/Main Test Cases/Quick Test Failed - 01</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

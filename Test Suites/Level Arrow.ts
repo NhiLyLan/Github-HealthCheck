@@ -12,41 +12,41 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>e4c8fced-2730-478c-92e6-21671ed498c1</testSuiteGuid>
    <testCaseLink>
-      <guid>3b2a110f-10ed-4465-ba3a-2946a2629b09</guid>
+      <guid>0868b4f7-0874-4b6e-85eb-c06c3ff3543f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Common Test Cases/Login - VT</testCaseId>
+      <testCaseId>Test Cases/Common Test Cases/Login Level Arrow</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>01f48cdb-919e-4870-9802-cdfb4a6c1428</variableId>
+         <variableId>19fe967b-1564-4705-aff2-848d45b84489</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>091068f3-5d16-41e5-a0ce-d096747be52a</variableId>
+         <variableId>75fa3d79-7e92-4d55-b359-f7c9493ea288</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>57094637-bc85-4b94-8a98-99d7d0ef3821</guid>
+      <guid>09cfd6fb-93bd-428d-9142-cd3e7280c70e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Common Test Cases/Login - VT - Incorrect Text</testCaseId>
+      <testCaseId>Test Cases/Common Test Cases/level arrow 1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c09b14a0-0b38-4465-8da2-2681adda0170</variableId>
+         <variableId>80825985-b284-40fd-a1ba-d4e11615c1e5</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3a45d586-4b45-4c58-a862-509926177bdc</variableId>
+         <variableId>664b7adf-c7b2-40ce-94c7-e8868ecf55d1</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

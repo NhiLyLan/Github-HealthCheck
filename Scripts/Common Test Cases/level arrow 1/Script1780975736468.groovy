@@ -18,20 +18,33 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import org.openqa.selenium.Rectangle as Rectangle
+import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://www.orangehrm.com/')
+WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 
-WebUI.takeFullPageScreenshotAsCheckpoint('test')
-
-WebUI.click(findTestObject('Orangehrm/book-a-free-demo'))
-
-WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
+WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
 
-WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
+if (WebUI.getText(findTestObject('Page_Login/btn_Login')) == 'LoginABC') {
+    WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
+} 
+else {
+    if (1 == 1) {
+        WebUI.getText(findTestObject('Page_Login/txt_Password')) == 'Password'
+		if(2==2) {
+			WebUI.callTestCase(findTestCase('Main Test Cases/Quick Test Failed - 01'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+			WebUI.callTestCase(findTestCase('Main Test Cases/Quick Test Failed - 03'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+			WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
+			WebUI.click(findTestObject('Page_Login/btn_Login'))
+			}
+		}
+}
 
-WebUI.click(findTestObject('Page_Login/btn_Login'))
-
-landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
+//landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
+WebUI.closeBrowser()
 

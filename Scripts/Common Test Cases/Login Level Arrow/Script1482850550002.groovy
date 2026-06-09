@@ -24,39 +24,31 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import org.openqa.selenium.Rectangle as Rectangle
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Common Test Cases/Login - VT'), [('Username') : 'John Doe', ('Password') : 'ThisIsNotAPassword'], 
-    FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 
 WebUI.maximizeWindow()
 
-WebUI.takeFullPageScreenshotAsCheckpoint('fullPageCheckPoint')
-
 WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
 
-WebUI.takeElementScreenshotAsCheckpoint('elementCheckPoint', findTestObject('Page_Login/btn_Login'))
-
 if (WebUI.getText(findTestObject('Page_Login/btn_Login')) == 'LoginABC') {
-    WebUI.takeScreenshotAsCheckpoint('screenCheckPoint')
+    WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
+
+    WebUI.callTestCase(findTestCase('Main Test Cases/Quick Test Failed - 01'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 } else {
-    if (WebUI.getText(findTestObject('Page_Login/txt_Password')) == 'Password') {
-        WebUI.takeScreenshotAsCheckpoint('screenCheckPoint')
+    if (1 == 1) {
+        WebUI.getText(findTestObject('Page_Login/txt_Password')) == 'Password'
+		if(2==2) {
+			WebUI.callTestCase(findTestCase('Main Test Cases/Quick Test Failed - 01'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+		}
     } else {
         WebUI.takeAreaScreenshotAsCheckpoint('areaCheckPoint', new Rectangle(150, 150, 150, 150))
     }
 }
 
-WebUI.takeScreenshotAsCheckpoint('screenCheckPoint')
-
 WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
 
 WebUI.click(findTestObject('Page_Login/btn_Login'))
 
-WebUI.takeAreaScreenshotAsCheckpoint('areaCheckPoint', new Rectangle(100, 200, 300, 150))
-
 //landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
 WebUI.closeBrowser()
-
-WebUI.acceptAlert()
 

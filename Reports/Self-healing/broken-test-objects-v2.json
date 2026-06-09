@@ -1,3 +1,13 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Login/btn_Login",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "xpath\u003d(//a[@onclick\u003d\"$(\u0027#menu-close\u0027).click();\"])[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
 }
