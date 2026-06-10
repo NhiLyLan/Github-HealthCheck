@@ -26,24 +26,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 
+WebUI.callTestCase(findTestCase('Common Test Cases/level arrow 1'), [('Username') : 'John Doe', ('Password') : 'ThisIsNotAPassword'], 
+    FailureHandling.STOP_ON_FAILURE)
+
 WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
-
-if (WebUI.getText(findTestObject('Page_Login/btn_Login')) == 'LoginABC') {
-    WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
-
-    WebUI.callTestCase(findTestCase('Main Test Cases/Quick Test Failed - 01'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-} else {
-    if (1 == 1) {
-        WebUI.getText(findTestObject('Page_Login/txt_Password')) == 'Password'
-		if(2==2) {
-			WebUI.callTestCase(findTestCase('Main Test Cases/Quick Test Failed - 01'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-		}
-    } else {
-        WebUI.takeAreaScreenshotAsCheckpoint('areaCheckPoint', new Rectangle(150, 150, 150, 150))
-    }
-}
 
 WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
 

@@ -35,15 +35,17 @@ if (WebUI.getText(findTestObject('Page_Login/btn_Login')) == 'LoginABC') {
 } 
 else {
     if (1 == 1) {
-        WebUI.getText(findTestObject('Page_Login/txt_Password')) == 'Password'
+        WebUI.getText(findTestObjects('Page_Login/txt_Password')) == 'Password'
 		if(2==2) {
-			WebUI.callTestCase(findTestCase('Main Test Cases/Quick Test Failed - 01'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-			WebUI.callTestCase(findTestCase('Main Test Cases/Quick Test Failed - 03'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+			WebUI.callTestCase(findTestCases('Main Test Cases/Quick Test Failed - 0111'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+			WebUI.callTestCase(findTestCases('Main Test Cases/Quick Test Failed - 0311'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 			WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
 			WebUI.click(findTestObject('Page_Login/btn_Login'))
 			}
 		}
+	WebUI.callTestCase(findTestCase('Main Test Cases/Quick Test Failed - 0111'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 }
+WebUI.callTestCase(findTestCase('Main Test Cases/Quick Test Failed - 0111'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 //landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
 WebUI.closeBrowser()
