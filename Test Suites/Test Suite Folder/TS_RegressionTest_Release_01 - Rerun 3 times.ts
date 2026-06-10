@@ -312,7 +312,7 @@
       <guid>9e01f065-77dc-401e-9617-143f2affc382</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Main Test Cases/TC4_Verify Make Appointment Button - Failed</testCaseId>
+      <testCaseId>Test Cases/Main Test Cases/rename</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

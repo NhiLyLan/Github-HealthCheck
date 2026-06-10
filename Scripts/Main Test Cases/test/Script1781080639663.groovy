@@ -18,7 +18,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.G_SiteURL)
-
-KeywordUtil.logInfo("test")
-KeywordUtil.markFailed("FAILED")
+System.exit(0)

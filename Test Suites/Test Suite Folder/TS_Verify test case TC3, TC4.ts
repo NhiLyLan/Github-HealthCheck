@@ -40,7 +40,7 @@
       <guid>24fa8624-5910-448e-9303-e99b483b616e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Main Test Cases/TC4_Verify Make Appointment Button - Failed</testCaseId>
+      <testCaseId>Test Cases/Main Test Cases/rename</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -288,7 +288,7 @@
       <guid>42389a8e-05b8-4470-b442-9ea4dcceb7d5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Main Test Cases/TC4_Verify Make Appointment Button - Failed</testCaseId>
+      <testCaseId>Test Cases/Main Test Cases/rename</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

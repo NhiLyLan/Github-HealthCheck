@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Quick Test Failed - 03 - Copy - Copy</name>
+   <name>test</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>e4556b9e-55aa-4109-b458-8b43ba501a18</testCaseGuid>
+   <testCaseGuid>5586161e-9570-4cc3-8759-c53d45d7cec6</testCaseGuid>
 </TestCaseEntity>
