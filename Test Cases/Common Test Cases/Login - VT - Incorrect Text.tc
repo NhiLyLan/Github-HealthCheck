@@ -8,7 +8,7 @@ Steps:
 
 Expected result:
 'Appointment' section is displayed after successful login</description>
-   <name>Login - VT - Incorrect Text</name>
+   <name>Login - VT - Incorrect Text 01</name>
    <tag>ABC,manxaDaiiii,newtagtest</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
