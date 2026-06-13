@@ -26,7 +26,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 
-WebUI.callTestCase(findTestCase('Common Test Cases/Login Level Arrow'), [('Username') : 'John Doe', ('Password') : 'ThisIsNotAPassword'], 
+WebUI.callTestCase(findTestCase('Common Test Cases/Login Level Arrow - 01'), [('Username') : 'John Doe', ('Password') : 'ThisIsNotAPassword'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.maximizeWindow()

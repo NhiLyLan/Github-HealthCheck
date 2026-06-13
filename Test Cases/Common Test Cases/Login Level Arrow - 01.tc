@@ -8,7 +8,7 @@ Steps:
 
 Expected result:
 'Appointment' section is displayed after successful login</description>
-   <name>Login Level Arrow</name>
+   <name>Login Level Arrow - 01</name>
    <tag>ABC,manxaDaiiii,newtagtest</tag>
    <integratedEntity>
       <productName>Azure</productName>
