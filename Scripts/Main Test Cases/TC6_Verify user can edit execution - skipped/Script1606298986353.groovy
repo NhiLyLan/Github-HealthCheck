@@ -27,7 +27,7 @@ WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
 WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('Common Test Cases/Login Level Arrow'), [('Username') : 'John Doe', ('Password') : 'ThisIsNotAPassword'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common Test Cases/Login Level Arrow - 01'), [('Username') : 'John Doe', ('Password') : 'ThisIsNotAPassword'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('And Appointment page is displayed')
 
