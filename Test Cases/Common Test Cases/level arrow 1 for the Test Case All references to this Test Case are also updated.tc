@@ -8,7 +8,7 @@ Steps:
 
 Expected result:
 'Appointment' section is displayed after successful login</description>
-   <name>level arrow 1</name>
+   <name>level arrow 1 for the Test Case All references to this Test Case are also updated</name>
    <tag>ABC,manxaDaiiii,newtagtest</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

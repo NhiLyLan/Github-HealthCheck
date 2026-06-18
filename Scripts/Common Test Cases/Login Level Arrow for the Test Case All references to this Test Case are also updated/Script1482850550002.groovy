@@ -26,26 +26,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 
+WebUI.callTestCase(findTestCase('Common Test Cases/level arrow 1 for the Test Case All references to this Test Case are also updated'), [('Username') : 'John Doe', ('Password') : 'ThisIsNotAPassword'], 
+    FailureHandling.STOP_ON_FAILURE)
+
 WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
 
-if (WebUI.getText(findTestObject('Page_Login/btn_Login')) == 'LoginABC') {
-    WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
-} 
-else {
-    if (1 == 1) {
-        WebUI.getText(findTestObjects('Page_Login/txt_Password')) == 'Password'
-		if(2==2) {
-			WebUI.callTestCase(findTestCases('Main Test Cases/Quick Test Failed - 0111'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-			WebUI.callTestCase(findTestCases('Main Test Cases/Quick Test Failed - 0311'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-			WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
-			WebUI.click(findTestObject('Page_Login/btn_Login'))
-			}
-		}
-	WebUI.callTestCase(findTestCase('Main Test Cases/Quick Test Failed - 0111'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-}
-WebUI.callTestCase(findTestCase('Main Test Cases/Quick Test Failed - 0111'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
+
+WebUI.click(findTestObject('Page_Login/btn_Login'))
 
 //landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
 WebUI.closeBrowser()

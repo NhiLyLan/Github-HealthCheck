@@ -8,7 +8,7 @@ Steps:
 
 Expected result:
 'Appointment' section is displayed after successful login</description>
-   <name>Login Level Arrow</name>
+   <name>Login Level Arrow for the Test Case All references to this Test Case are also updated</name>
    <tag>ABC,manxaDaiiii,newtagtest</tag>
    <integratedEntity>
       <productName>Azure</productName>

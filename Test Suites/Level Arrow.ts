@@ -15,7 +15,7 @@
       <guid>0868b4f7-0874-4b6e-85eb-c06c3ff3543f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Common Test Cases/Login Level Arrow</testCaseId>
+      <testCaseId>Test Cases/Common Test Cases/Login Level Arrow for the Test Case All references to this Test Case are also updated</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -34,7 +34,7 @@
       <guid>09cfd6fb-93bd-428d-9142-cd3e7280c70e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Common Test Cases/level arrow 1</testCaseId>
+      <testCaseId>Test Cases/Common Test Cases/level arrow 1 for the Test Case All references to this Test Case are also updated</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
