@@ -15,7 +15,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Navigate 01</testSuiteEntity>
+         <testSuiteEntity>Test Suites/level a/level b/level c/level d/level e/level f/level g/Navigate 01</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -25,7 +25,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Navigate 02</testSuiteEntity>
+         <testSuiteEntity>Test Suites/level a/level b/level c/level d/level e/level f/level g/Navigate 02</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
